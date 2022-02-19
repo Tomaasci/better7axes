@@ -1,2 +1,2 @@
 # 7axes
-A political test with SEVEN AXES, economic, nation, war, governmental, cultural, technological and religious
+A political test with SEVEN AXES, economic, national, war, governmental, cultural, technological and religious
