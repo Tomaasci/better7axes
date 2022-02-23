@@ -137,17 +137,21 @@ div.axis_name {
     margin: -2px auto;
     cursor: pointer;
 }
-.button:hover, .button:focus { background: #05518e; }
+.button:hover, .button:focus { background: #000000; }
 .stronglyAgree { background: #004e06; }
-.stronglyAgree:hover, .stronglyAgree:focus { background: #003404; }
+.stronglyAgree:hover, .stronglyAgree:focus { background: #000000; }
 .agree { background: #32a13a; }
-.agree:hover, .agree:focus { background: #28762e; }
+.agree:hover, .agree:focus { background: #000000; }
+.somewhatAgree { background: #67DE6F; }
+.somewhatAgree:hover, .agree:focus { background: #000000; }
 .neutral { background: #5c5c5c; }
-.neutral:hover, .neutral:focus { background: #313131; }
-.disagree { background: #a13232; }
-.disagree:hover, .disagree:focus { background: #762828; }
+.neutral:hover, .neutral:focus { background: #000000; }
+.somewhatDisagree { background: #a13232; }
+.somewhatDisagree:hover, .disagree:focus { background: #000000; }
+.disagree { background: #DF6868; }
+.disagree:hover, .disagree:focus { background: #000000; }
 .stronglyDisagree { background: #4e0000; }
-.stronglyDisagree:hover, .stronglyDisagree:focus { background: #340000; }
+.stronglyDisagree:hover, .stronglyDisagree:focus { background: #000000; }
 
 .small_button, .small_button_off {
     background-color: #202020;
