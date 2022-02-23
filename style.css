@@ -142,7 +142,7 @@ div.axis_name {
 .stronglyAgree:hover, .stronglyAgree:focus { background: #000000; }
 .agree { background: #32a13a; }
 .agree:hover, .agree:focus { background: #000000; }
-.somewhatAgree { background: #67DE6F; }
+.somewhatAgree { background: #67de6f; }
 .somewhatAgree:hover, .agree:focus { background: #000000; }
 .neutral { background: #5c5c5c; }
 .neutral:hover, .neutral:focus { background: #000000; }
