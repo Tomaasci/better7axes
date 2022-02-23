@@ -146,9 +146,9 @@ div.axis_name {
 .somewhatAgree:hover, .agree:focus { background: #000000; }
 .neutral { background: #5c5c5c; }
 .neutral:hover, .neutral:focus { background: #000000; }
-.somewhatDisagree { background: #a13232; }
+.somewhatDisagree { background: #df6868; }
 .somewhatDisagree:hover, .disagree:focus { background: #000000; }
-.disagree { background: #df6868; }
+.disagree { background: #a13232; }
 .disagree:hover, .disagree:focus { background: #000000; }
 .stronglyDisagree { background: #4e0000; }
 .stronglyDisagree:hover, .stronglyDisagree:focus { background: #000000; }
