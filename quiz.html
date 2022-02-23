@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>Bannned-Axes Quiz</title>
+<title>7axes Quiz</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -17,13 +17,15 @@
 <script type="application/javascript"
         src="questions.js">
 </script>
-<h1>Bannned-Axes</h1>
+<h1>7axes</h1>
 <hr>
 <h2 style="text-align:center;" id="question-number">Loading...</h2>
 <p class="question" id="question-text"></p>
 <button class="button stronglyAgree" onclick="next_question( 1.0)">Strongly Agree</button> <br>
 <button class="button agree" onclick="next_question( 0.5)">Agree</button> <br>
+<button class="button somewhat agree" onclick="next_question( 0.25)">Agree</button> <br>
 <button class="button neutral" onclick="next_question( 0.0)">Neutral/Unsure</button> <br>
+<button class="button somewhat disagree" onclick="next_question(-0.25)">Disagree</button> <br>
 <button class="button disagree" onclick="next_question(-0.5)">Disagree</button> <br>
 <button class="button stronglyDisagree" onclick="next_question(-1.0)">Strongly Disagree</button> <br>
 <button class="small_button" onclick="prev_question()" id="back_button">Back</button>
@@ -35,15 +37,21 @@
     max_econ = max_dipl = max_govt = max_scty = 0;
     let econ_array = new Array(questions.length);
     let dipl_array = new Array(questions.length);
+    let w_array = new Array(questions.length);
     let govt_array = new Array(questions.length);
     let scty_array = new Array(questions.length);
+    let t_array = new Array(questions.length);
+    let r_array = new Array(questions.length);
     var qn = 0; // Question number
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
         max_dipl += Math.abs(questions[i].effect.dipl)
+        max_w += Math.abs(questions[i].effect.w)
         max_govt += Math.abs(questions[i].effect.govt)
         max_scty += Math.abs(questions[i].effect.scty)
+        max_t += Math.abs(questions[i].effect.t)
+        max_r += Math.abs(questions[i].effect.r)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -61,8 +69,11 @@
     function next_question(mult) {
         econ_array[qn] = mult*questions[qn].effect.econ
         dipl_array[qn] = mult*questions[qn].effect.dipl
+        w_array[qn] = mult*questions[qn].effect.w
         govt_array[qn] = mult*questions[qn].effect.govt
         scty_array[qn] = mult*questions[qn].effect.scty
+        t_array[qn] = mult*questions[qn].effect.t
+        r_array[qn] = mult*questions[qn].effect.r
         qn++;
         if (qn < questions.length) {
             init_question();
@@ -86,13 +97,19 @@
     function results() {
         let final_econ = econ_array.reduce((a, b) => a + b, 0)
         let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
+        let final_w = dipl_array.reduce((a, b) => a + b, 0)
         let final_govt = govt_array.reduce((a, b) => a + b, 0)
         let final_scty = scty_array.reduce((a, b) => a + b, 0)
+        let final_t = govt_array.reduce((a, b) => a + b, 0)
+        let final_r = scty_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
             + `?e=${calc_score(final_econ,max_econ)}`
             + `&d=${calc_score(final_dipl,max_dipl)}`
+            + `&d=${calc_score(final_w,max_w)}`
             + `&g=${calc_score(final_govt,max_govt)}`
             + `&s=${calc_score(final_scty,max_scty)}`
+            + `&d=${calc_score(final_t,max_t)}`
+            + `&g=${calc_score(final_r,max_r)}`
     }
 </script>
 </body>
