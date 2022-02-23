@@ -148,7 +148,7 @@ div.axis_name {
 .neutral:hover, .neutral:focus { background: #000000; }
 .somewhatDisagree { background: #a13232; }
 .somewhatDisagree:hover, .disagree:focus { background: #000000; }
-.disagree { background: #DF6868; }
+.disagree { background: #df6868; }
 .disagree:hover, .disagree:focus { background: #000000; }
 .stronglyDisagree { background: #4e0000; }
 .stronglyDisagree:hover, .stronglyDisagree:focus { background: #000000; }
