@@ -279,6 +279,26 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
+div.accel {
+    background-color: #1aafa3;
+    text-align: left;
+    border-right-style: solid;
+}
+div.decel {
+    background-color: #afad1a;
+    text-align: right;
+    border-left-style: solid;
+}
+div.religious {
+    background-color: #d2dab7;
+    text-align: left;
+    border-right-style: solid;
+}
+div.atheistic {
+    background-color: #000000;
+    text-align: right;
+    border-left-style: solid;
+}
 span.weight-300 {
     font-weight: 300;
 }
