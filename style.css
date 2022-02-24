@@ -254,6 +254,16 @@ div.peace {
     text-align: right;
     border-left-style: solid;
 }
+div.jingoism {
+    background-color: #4baf1a;
+    text-align: left;
+    border-right-style: solid;
+}
+div.pacifism {
+    background-color: #a8a2a0;
+    text-align: right;
+    border-left-style: solid;
+}
 div.might {
     background-color: #a9380b;
     text-align: left;
