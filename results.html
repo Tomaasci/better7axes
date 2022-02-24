@@ -241,31 +241,48 @@
         ctx.fillRect(120, 664, 5.6*tradition-2, 72)
         ctx.fillStyle="#a90ba3"
         ctx.fillRect(682-5.6*progress, 664, 5.6*progress-2, 72)
+        ctx.fillStyle="#1aafa3"
+        ctx.fillRect(120, 424, 5.6*decel-2, 72)
+        ctx.fillStyle="#afad1a"
+        ctx.fillRect(682-5.6*accel, 424, 5.6*accel-2, 72)
+        ctx.fillStyle="#d2dab7"
+        ctx.fillRect(120, 424, 5.6*religious-2, 72)
+        ctx.fillStyle="#000000"
+        ctx.fillRect(682-5.6*atheistic, 424, 5.6*atheistic-2, 72)
         ctx.fillStyle="#222222"
         ctx.font="700 50px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("Bannned-Axes", 20, 90)
+        ctx.fillText("7Axes", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
 
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
         if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
-        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
+        if (pacifism  > 30) {ctx.fillText(pacifism + "%", 130, 477.5)}
+        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 597.5)}
+        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 717.5)}
+        if (decel     > 30) {ctx.fillText(decel + "%", 130, 837.5)}
+        if (religious > 30) {ctx.fillText(religious + "%", 130, 957.5)}
         ctx.textAlign="right"
         if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
         if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
-        if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
+        if (jingoism  > 30) {ctx.fillText(jingoism + "%", 670, 477.5)}
+        if (authority > 30) {ctx.fillText(authority + "%", 670, 597.5)}
+        if (progress  > 30) {ctx.fillText(progress + "%", 670, 717.5)}
+        if (accel     > 30) {ctx.fillText(accel + "%", 670, 837.5)}
+        if (atheistic > 30) {ctx.fillText(atheistic + "%", 670, 957.5)}
 
         ctx.font="300 30px Montserrat"
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
         ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.fillText("War Axis: " + document.getElementById("w-label").innerHTML, 400, 415)
+        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 535)
+        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 655)
+        ctx.fillText("Technological Axis: " + document.getElementById("t-label").innerHTML, 400, 775)
+        ctx.fillText("Religious Axis: " + document.getElementById("r-label").innerHTML, 400, 895)
 
         document.getElementById("banner").src = c.toDataURL();
     }
