@@ -4,8 +4,11 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -13,8 +16,11 @@ questions = [
         "effect": {
             "econ": 5,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -22,8 +28,11 @@ questions = [
         "effect": {
             "econ": -10,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -31,8 +40,11 @@ questions = [
         "effect": {
             "econ": -7,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -40,8 +52,11 @@ questions = [
         "effect": {
             "econ": 7,
             "dipl": -10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -49,8 +64,11 @@ questions = [
         "effect": {
             "econ": 15,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -58,8 +76,11 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -67,8 +88,11 @@ questions = [
         "effect": {
             "econ": -15,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -76,8 +100,11 @@ questions = [
         "effect": {
             "econ": 7,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -85,8 +112,11 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -94,8 +124,11 @@ questions = [
         "effect": {
             "econ": -5,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -103,8 +136,11 @@ questions = [
         "effect": {
             "econ": -7,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -112,8 +148,11 @@ questions = [
         "effect": {
             "econ": 7,
             "dipl": -7,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -121,8 +160,11 @@ questions = [
         "effect": {
             "econ": -7,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -130,8 +172,11 @@ questions = [
         "effect": {
             "econ": 7,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -139,8 +184,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -15,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -148,8 +196,11 @@ questions = [
         "effect": {
             "econ": 5,
             "dipl": -10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -157,8 +208,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "w": 0,
             "govt": 5,
-            "scty": 5
+            "scty": 5,
+            "t": 0,
+            "r": -5
         }
     },
     {
@@ -166,8 +220,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -175,8 +232,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -184,8 +244,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -193,8 +256,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -202,8 +268,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 7,
+            "w": 0,
             "govt": 0,
-            "scty": 7
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -211,8 +280,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": -10,
+            "w": 0,
             "govt": -5,
-            "scty": -5
+            "scty": -5,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -220,8 +292,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -229,8 +304,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "w": 0,
             "govt": 5,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -238,8 +316,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -247,8 +328,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -256,8 +340,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 7,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -265,8 +352,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -274,8 +364,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": -5,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -283,8 +376,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 7,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -292,8 +388,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "w": 0,
+            "govt": -10,
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -301,8 +400,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 10,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -310,8 +412,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": -10,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -319,8 +424,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": -10,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -328,8 +436,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 10,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -337,8 +448,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 10,
-            "scty": 2
+            "scty": 2,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -346,8 +460,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 10,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -355,8 +472,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 7
+            "scty": 7,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -364,8 +484,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": -10,
-            "scty": -15
+            "scty": -15,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -373,8 +496,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": -10,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -382,8 +508,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 7,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -391,8 +520,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 7,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -400,8 +532,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 10,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -409,8 +544,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -418,8 +556,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -427,8 +568,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -15
+            "scty": -15,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -436,8 +580,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -445,8 +592,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 12
+            "scty": 12,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -454,8 +604,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -463,8 +616,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": -4,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -472,8 +628,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -481,8 +640,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -490,8 +652,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -499,8 +664,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 12,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -508,8 +676,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -517,8 +688,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": -10,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -526,26 +700,35 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -12
+            "scty": -12,
+            "t": 0,
+            "r": 0
         }
     },
     {
-        "question": "Climate change is real.",
+        "question": "Climate change is a serious threat to humanity.",
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 7
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
-        "question": "The fundamental flaw of western societies is that their people have lost faith in God.",
+        "question": "The fundamental flaw of western societies is that their people have lost connection to their past.",
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -10
+            "scty": -10,
+            "t": 10,
+            "r": 10
         }
     },
     {
@@ -553,8 +736,11 @@ questions = [
         "effect": {
             "econ": 10,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -562,8 +748,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -7
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -571,8 +760,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 10,
+            "r": -10
         }
     },
     {
@@ -580,8 +772,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 15
+            "scty": 10,
+            "t": 0,
+            "r": -10
         }
     },
     {
@@ -589,8 +784,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 15
+            "scty": 10,
+            "t": 0,
+            "r": -10
         }
     },
     {
@@ -598,8 +796,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 10,
-            "scty": 7
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -607,8 +808,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -616,8 +820,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": 10
+            "scty": 10,
+            "t": 0,
+            "r": 0
         }
     },
     {
@@ -625,8 +832,11 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
+            "w": 0,
             "govt": 0,
-            "scty": -10
+            "scty": -10,
+            "t": 0,
+            "r": 0
         }
     }
 ];
