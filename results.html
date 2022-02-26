@@ -101,7 +101,7 @@
     govtArray = ["Anarchist","Minarchist","Libertarian","Centrist","Statist","Authoritarian","Totalitarian"]
     sctyArray = ["Revolutionary","Radical","Progressive","Centrist","Conservative","Reactionary","Antiquitist"]
     tArray = ["Primitivist","Agrarian","Decelerationist","Centrist","Accelerationist","Radical Accelerationist","Transhumanist"]
-    rArray = ["Fundamentalist","Orthodox","Moderate","Agnostic","Atheist","Anti-Theist","Militant Atheist"]
+    rArray = ["Fundamentalist","Devout","Moderate","Agnostic","Atheist","Anti-Theist","Militant Atheist"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -120,8 +120,8 @@
     pacifism  = getQueryVariable("w")
     liberty   = getQueryVariable("g")
     progress  = getQueryVariable("s")
-    decel     = getQueryVariable("w")
-    religious = getQueryVariable("w")
+    decel     = getQueryVariable("t")
+    religious = getQueryVariable("r")
     wealth    = (100 - equality ).toFixed(1)
     might     = (100 - peace    ).toFixed(1)
     jingoism  = (100 - pacifism ).toFixed(1)
