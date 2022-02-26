@@ -5,7 +5,10 @@ ideologies = [
             "econ": 50,
             "dipl": 15,
             "govt": 40,
-            "scty": 10
+            "scty": 10,
+            "w": 0,
+            "t": 0,
+            "r": 0
         }
     },
     {
