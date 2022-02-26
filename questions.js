@@ -828,6 +828,18 @@ questions = [
         }
     },
     {
+        "question": "War is a universal evil.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 15,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
         "question": "Certain races are inferior to others.",
         "effect": {
             "econ": 0,
