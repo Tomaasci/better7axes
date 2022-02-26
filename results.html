@@ -35,10 +35,10 @@
 </div>
 <h2>War Axis: <span class="weight-300" id="w-label"></span></h2>
 <div class="axis">
-    <img id="img-pacifism" src="value_images/pacifism.png" height="128pt"/>
-    <div class="bar pacifism" id="bar-pacifism"><div class="text-wrapper" id="pacifism"></div></div>
-    <div class="bar jingoism" id="bar-jingoism"><div class="text-wrapper" id="jingoism"></div></div>
     <img id="img-jingoism" src="value_images/jingoism.png" height="128pt"/>
+    <div class="bar jingoism" id="bar-jingoism"><div class="text-wrapper" id="jingoism"></div></div>
+    <div class="bar pacifism" id="bar-pacifism"><div class="text-wrapper" id="pacifism"></div></div>
+    <img id="img-pacifism" src="value_images/pacifism.png" height="128pt"/>
 </div>
 <h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
@@ -117,14 +117,14 @@
 
     equality  = getQueryVariable("e")
     peace     = getQueryVariable("d")
-    pacifism  = getQueryVariable("w")
+    jingoism  = getQueryVariable("w")
     liberty   = getQueryVariable("g")
     progress  = getQueryVariable("s")
     accel     = getQueryVariable("t")
     religious = getQueryVariable("r")
     wealth    = (100 - equality ).toFixed(1)
     might     = (100 - peace    ).toFixed(1)
-    jingoism  = (100 - pacifism ).toFixed(1)
+    pacifism  = (100 - jingoism ).toFixed(1)
     authority = (100 - liberty  ).toFixed(1)
     tradition = (100 - progress ).toFixed(1)
     decel     = (100 - accel    ).toFixed(1)
@@ -147,7 +147,7 @@
 
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("w-label").innerHTML = setLabel(pacifism, wArray)
+    document.getElementById("w-label").innerHTML = setLabel(jingoism, wArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
     document.getElementById("t-label").innerHTML = setLabel(accel, tArray)
@@ -160,7 +160,7 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.w - pacifism), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.w - jingoism), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.t - accel), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.r - religious), 2)
@@ -195,9 +195,9 @@
         ctx.drawImage(img, 20, 290, 100, 100)
         img = document.getElementById("img-peace")
         ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-pacifism")
-        ctx.drawImage(img, 20, 410, 100, 100)
         img = document.getElementById("img-jingoism")
+        ctx.drawImage(img, 20, 410, 100, 100)
+        img = document.getElementById("img-pacifism")
         ctx.drawImage(img, 680, 410, 100, 100)
         img = document.getElementById("img-liberty")
         ctx.drawImage(img, 20, 530, 100, 100)
@@ -232,10 +232,10 @@
         ctx.fillRect(120, 304, 5.6*might-2, 72)
         ctx.fillStyle="#0b68a9"
         ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
-        ctx.fillStyle="#a8a2a0"
-        ctx.fillRect(120, 424, 5.6*pacifism-2, 72)
         ctx.fillStyle="#4baf1a"
-        ctx.fillRect(682-5.6*jingoism, 424, 5.6*jingoism-2, 72)
+        ctx.fillRect(120, 424, 5.6*jingoism-2, 72)
+        ctx.fillStyle="#a8a2a0"
+        ctx.fillRect(682-5.6*pacifism, 424, 5.6*pacifism-2, 72)
         ctx.fillStyle="#a3a90b"
         ctx.fillRect(120, 544, 5.6*liberty-2, 72)
         ctx.fillStyle="#4a0ba9"
@@ -262,18 +262,18 @@
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
         if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (pacifism  > 30) {ctx.fillText(pacifism + "%", 130, 477.5)}
+        if (jingoism  > 30) {ctx.fillText(jingoism + "%", 130, 477.5)}
         if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 597.5)}
         if (tradition > 30) {ctx.fillText(tradition + "%", 130, 717.5)}
-        if (accel     > 30) {ctx.fillText(decel + "%", 130, 837.5)}
+        if (accel     > 30) {ctx.fillText(accel + "%", 130, 837.5)}
         if (religious > 30) {ctx.fillText(religious + "%", 130, 957.5)}
         ctx.textAlign="right"
         if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
         if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (jingoism  > 30) {ctx.fillText(jingoism + "%", 670, 477.5)}
+        if (pacifism  > 30) {ctx.fillText(pacifism + "%", 670, 477.5)}
         if (authority > 30) {ctx.fillText(authority + "%", 670, 597.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 717.5)}
-        if (decel     > 30) {ctx.fillText(accel + "%", 670, 837.5)}
+        if (decel     > 30) {ctx.fillText(decel + "%", 670, 837.5)}
         if (atheistic > 30) {ctx.fillText(atheistic + "%", 670, 957.5)}
 
         ctx.font="300 30px Montserrat"
