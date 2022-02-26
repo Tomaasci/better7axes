@@ -33,8 +33,8 @@
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
+    var max_econ, max_dipl, max_w, max_govt, max_scty, max_t, max_r; // Max possible scores
+    max_econ = max_dipl = max_w = max_govt = max_scty = max_t = max_r = 0;
     let econ_array = new Array(questions.length);
     let dipl_array = new Array(questions.length);
     let w_array = new Array(questions.length);
@@ -97,11 +97,11 @@
     function results() {
         let final_econ = econ_array.reduce((a, b) => a + b, 0)
         let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
-        let final_w = dipl_array.reduce((a, b) => a + b, 0)
+        let final_w = w_array.reduce((a, b) => a + b, 0)
         let final_govt = govt_array.reduce((a, b) => a + b, 0)
         let final_scty = scty_array.reduce((a, b) => a + b, 0)
-        let final_t = govt_array.reduce((a, b) => a + b, 0)
-        let final_r = scty_array.reduce((a, b) => a + b, 0)
+        let final_t = t_array.reduce((a, b) => a + b, 0)
+        let final_r = ry_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
             + `?e=${calc_score(final_econ,max_econ)}`
             + `&d=${calc_score(final_dipl,max_dipl)}`
