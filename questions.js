@@ -1452,13 +1452,13 @@ questions = [
         }
     },
     {
-        "question": "Objective morality is a pharse.",
+        "question": "I am too smart to believe in religion.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
             "govt": 0,
-            "scty": 5,
+            "scty": 0,
             "t": 0,
             "r": -15
         }
