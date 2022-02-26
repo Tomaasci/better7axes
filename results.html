@@ -99,8 +99,8 @@
     diplArray = ["World Federalist","Globalist","Multiculturalist","Centrist","Patriot","Nationalist","Ultranationalist"]
     wArray = ["Extreme Pacifist","Pacifist","Moderate Pacifist","Centrist","Interventionist","Warmonger","Imperialist"]
     govtArray = ["Anarchist","Minarchist","Libertarian","Centrist","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Radical","Progressive","Centrist","Conservative","Reactionary","Antiquitist"]
-    tArray = ["Primitivist","Agrarian","Decelerationist","Centrist","Accelerationist","Radical Accelerationist","Transhumanist"]
+    sctyArray = ["Revolutionary","Radical","Progressive","Centrist","Conservative","Traditionalist","Reactionary"]
+    tArray = ["Transhumanist","Radical Accelerationist","Accelerationist","Centrist","Decelerationist","Agrarian","Primitivist"]
     rArray = ["Fundamentalist","Devout","Moderate","Agnostic","Atheist","Anti-Theist","Militant Atheist"]
 
     function setLabel(val,ary) {
@@ -120,14 +120,14 @@
     pacifism  = getQueryVariable("w")
     liberty   = getQueryVariable("g")
     progress  = getQueryVariable("s")
-    decel     = getQueryVariable("t")
+    accel     = getQueryVariable("t")
     religious = getQueryVariable("r")
     wealth    = (100 - equality ).toFixed(1)
     might     = (100 - peace    ).toFixed(1)
     jingoism  = (100 - pacifism ).toFixed(1)
     authority = (100 - liberty  ).toFixed(1)
     tradition = (100 - progress ).toFixed(1)
-    accel     = (100 - decel    ).toFixed(1)
+    decel     = (100 - accel    ).toFixed(1)
     atheistic = (100 - religious).toFixed(1)
 
     setBarValue("equality", equality)
@@ -150,7 +150,7 @@
     document.getElementById("w-label").innerHTML = setLabel(pacifism, wArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
-    document.getElementById("t-label").innerHTML = setLabel(decel, tArray)
+    document.getElementById("t-label").innerHTML = setLabel(accel, tArray)
     document.getElementById("r-label").innerHTML = setLabel(religious, rArray)
 
     ideology = ""
@@ -162,7 +162,7 @@
         dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.w - pacifism), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.t - decel), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.t - accel), 1.73856063)
         dist += Math.pow(Math.abs(ideologies[i].stats.r - religious), 2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
@@ -207,9 +207,9 @@
         ctx.drawImage(img, 20, 650, 100, 100)
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 650, 100, 100)
-        img = document.getElementById("img-accel")
-        ctx.drawImage(img, 20, 770, 100, 100)
         img = document.getElementById("img-decel")
+        ctx.drawImage(img, 20, 770, 100, 100)
+        img = document.getElementById("img-accel")
         ctx.drawImage(img, 680, 770, 100, 100)
         img = document.getElementById("img-religious")
         ctx.drawImage(img, 20, 890, 100, 100)
@@ -245,9 +245,9 @@
         ctx.fillStyle="#a90ba3"
         ctx.fillRect(682-5.6*progress, 664, 5.6*progress-2, 72)
         ctx.fillStyle="#1aafa3"
-        ctx.fillRect(120, 784, 5.6*decel-2, 72)
+        ctx.fillRect(120, 784, 5.6*accel-2, 72)
         ctx.fillStyle="#afad1a"
-        ctx.fillRect(682-5.6*accel, 784, 5.6*accel-2, 72)
+        ctx.fillRect(682-5.6*decel, 784, 5.6*decel-2, 72)
         ctx.fillStyle="#d2dab7"
         ctx.fillRect(120, 904, 5.6*religious-2, 72)
         ctx.fillStyle="#000000"
@@ -265,7 +265,7 @@
         if (pacifism  > 30) {ctx.fillText(pacifism + "%", 130, 477.5)}
         if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 597.5)}
         if (tradition > 30) {ctx.fillText(tradition + "%", 130, 717.5)}
-        if (decel     > 30) {ctx.fillText(decel + "%", 130, 837.5)}
+        if (accel     > 30) {ctx.fillText(decel + "%", 130, 837.5)}
         if (religious > 30) {ctx.fillText(religious + "%", 130, 957.5)}
         ctx.textAlign="right"
         if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
@@ -273,7 +273,7 @@
         if (jingoism  > 30) {ctx.fillText(jingoism + "%", 670, 477.5)}
         if (authority > 30) {ctx.fillText(authority + "%", 670, 597.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 717.5)}
-        if (accel     > 30) {ctx.fillText(accel + "%", 670, 837.5)}
+        if (decel     > 30) {ctx.fillText(accel + "%", 670, 837.5)}
         if (atheistic > 30) {ctx.fillText(atheistic + "%", 670, 957.5)}
 
         ctx.font="300 30px Montserrat"
