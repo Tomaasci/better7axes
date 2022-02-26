@@ -6,9 +6,9 @@ ideologies = [
             "dipl": 15,
             "govt": 40,
             "scty": 10,
-            "w": 0,
-            "t": 0,
-            "r": 0
+            "w": 40,
+            "t": 20,
+            "r": 90
         }
     },
     {
@@ -17,7 +17,10 @@ ideologies = [
             "econ": 60,
             "dipl": 25,
             "govt": 30,
-            "scty": 10
+            "scty": 10,
+            "w": 30,
+            "t": 20,
+            "r": 90
         }
     },
     {
@@ -26,7 +29,10 @@ ideologies = [
             "econ": 40,
             "dipl": 20,
             "govt": 30,
-            "scty": 20
+            "scty": 20,
+            "w": 20,
+            "t": 40,
+            "r": 80
         }
     },
     {
@@ -35,7 +41,10 @@ ideologies = [
             "econ": 75,
             "dipl": 20,
             "govt": 25,
-            "scty": 20
+            "scty": 20,
+            "w": 40,
+            "t": 20,
+            "r": 80
         }
     },
     {
@@ -44,7 +53,10 @@ ideologies = [
             "econ": 60,
             "dipl": 50,
             "govt": 40,
-            "scty": 30
+            "scty": 30,
+            "w": 20,
+            "t": 20,
+            "r": 80
         }
     },
     {
@@ -53,7 +65,10 @@ ideologies = [
             "econ": 65,
             "dipl": 25,
             "govt": 30,
-            "scty": 25
+            "scty": 25,
+            "w": 40,
+            "t": 40,
+            "r": 75
         }
     },
     {
@@ -62,7 +77,10 @@ ideologies = [
             "econ": 40,
             "dipl": 25,
             "govt": 40,
-            "scty": 25
+            "scty": 25,
+            "w": 25,
+            "t": 40,
+            "r": 75
         }
     },
     {
@@ -71,7 +89,10 @@ ideologies = [
             "econ": 30,
             "dipl": 15,
             "govt": 60,
-            "scty": 15
+            "scty": 15,
+            "w": 30,
+            "t": 25,
+            "r": 80
         }
     },
     {
@@ -80,7 +101,10 @@ ideologies = [
             "econ": 70,
             "dipl": 75,
             "govt": 45,
-            "scty": 75
+            "scty": 75,
+            "w": 20,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -89,7 +113,10 @@ ideologies = [
             "econ": 20,
             "dipl": 40,
             "govt": 65,
-            "scty": 50
+            "scty": 50,
+            "w": 40,
+            "t": 75,
+            "r": 50
         }
     },
     {
@@ -98,7 +125,10 @@ ideologies = [
             "econ": 60,
             "dipl": 50,
             "govt": 0,
-            "scty": 50
+            "scty": 50,
+            "w": 100,
+            "t": 100,
+            "r": 0
         }
     },
     {
@@ -107,7 +137,22 @@ ideologies = [
             "econ": 50,
             "dipl": 50,
             "govt": 50,
-            "scty": 50
+            "scty": 50,
+            "w": 50,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Religious Apoliticism",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50,
+            "w": 50,
+            "t": 50,
+            "r": 80
         }
     },
     {
@@ -116,7 +161,10 @@ ideologies = [
             "econ": 100,
             "dipl": 100,
             "govt": 50,
-            "scty": 100
+            "scty": 100,
+            "w": 50,
+            "t": 100,
+            "r": 0
         }
     },
     {
@@ -125,7 +173,10 @@ ideologies = [
             "econ": 70,
             "dipl": 70,
             "govt": 30,
-            "scty": 90
+            "scty": 90,
+            "w": 60,
+            "t": 80,
+            "r": 10
         }
     },
     {
@@ -134,7 +185,10 @@ ideologies = [
             "econ": 90,
             "dipl": 80,
             "govt": 20,
-            "scty": 70
+            "scty": 70,
+            "w": 80,
+            "t": 75,
+            "r": 10
         }
     },
     {
@@ -143,7 +197,10 @@ ideologies = [
             "econ": 90,
             "dipl": 30,
             "govt": 10,
-            "scty": 50
+            "scty": 50,
+            "w": 80,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -152,7 +209,10 @@ ideologies = [
             "econ": 90,
             "dipl": 90,
             "govt": 20,
-            "scty": 50
+            "scty": 70,
+            "w": 90,
+            "t": 80,
+            "r": 10
         }
     },
     {
@@ -161,7 +221,10 @@ ideologies = [
             "econ": 100,
             "dipl": 50,
             "govt": 0,
-            "scty": 50
+            "scty": 50,
+            "w": 90,
+            "t": 100,
+            "r": 0
         }
     },
     {
@@ -170,7 +233,10 @@ ideologies = [
             "econ": 0,
             "dipl": 50,
             "govt": 0,
-            "scty": 100
+            "scty": 100,
+            "w": 70,
+            "t": 100,
+            "r": 0
         }
     },
     {
@@ -179,7 +245,10 @@ ideologies = [
             "econ": 90,
             "dipl": 10,
             "govt": 0,
-            "scty": 40
+            "scty": 40,
+            "w": 70,
+            "t": 70,
+            "r": 10
         }
     },
     {
@@ -188,7 +257,10 @@ ideologies = [
             "econ": 75,
             "dipl": 75,
             "govt": 75,
-            "scty": 75
+            "scty": 75,
+            "w": 20,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -197,7 +269,10 @@ ideologies = [
             "econ": 70,
             "dipl": 80,
             "govt": 90,
-            "scty": 80
+            "scty": 80,
+            "w": 10,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -206,7 +281,10 @@ ideologies = [
             "econ": 20,
             "dipl": 30,
             "govt": 70,
-            "scty": 30
+            "scty": 30,
+            "w": 30,
+            "t": 75,
+            "r": 80
         }
     },
     {
@@ -215,7 +293,10 @@ ideologies = [
             "econ": 0,
             "dipl": 50,
             "govt": 100,
-            "scty": 50
+            "scty": 50,
+            "w": 25,
+            "t": 80,
+            "r": 20
         }
     },
     {
@@ -224,7 +305,10 @@ ideologies = [
             "econ": 40,
             "dipl": 40,
             "govt": 35,
-            "scty": 35
+            "scty": 35,
+            "w": 80,
+            "t": 75,
+            "r": 75
         }
     },
     {
@@ -233,7 +317,10 @@ ideologies = [
             "econ": 100,
             "dipl": 75,
             "govt": 75,
-            "scty": 75
+            "scty": 75,
+            "w": 20,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -242,7 +329,10 @@ ideologies = [
             "econ": 100,
             "dipl": 75,
             "govt": 100,
-            "scty": 75
+            "scty": 75,
+            "w": 15,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -251,7 +341,10 @@ ideologies = [
             "econ": 50,
             "dipl": 5,
             "govt": 10,
-            "scty": 20
+            "scty": 20,
+            "w": 90,
+            "t": 85,
+            "r": 30
         }
     },
     {
@@ -260,7 +353,10 @@ ideologies = [
             "econ": 60,
             "dipl": 70,
             "govt": 30,
-            "scty": 70
+            "scty": 70,
+            "w": 25,
+            "t": 80,
+            "r": 20
         }
     },
     {
@@ -269,7 +365,10 @@ ideologies = [
             "econ": 50,
             "dipl": 50,
             "govt": 75,
-            "scty": 50
+            "scty": 50,
+            "w": 20,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -278,7 +377,10 @@ ideologies = [
             "econ": 60,
             "dipl": 75,
             "govt": 75,
-            "scty": 75
+            "scty": 75,
+            "w": 20,
+            "t": 75,
+            "r": 20
         }
     },
     {
@@ -287,7 +389,10 @@ ideologies = [
             "econ": 40,
             "dipl": 50,
             "govt": 100,
-            "scty": 50
+            "scty": 50,
+            "w": 20,
+            "t": 85,
+            "r": 10
         }
     },
     {
@@ -296,7 +401,10 @@ ideologies = [
             "econ": 60,
             "dipl": 50,
             "govt": 100,
-            "scty": 30
+            "scty": 30,
+            "w": 15,
+            "t": 10,
+            "r": 35
         }
     },
     {
@@ -305,7 +413,10 @@ ideologies = [
             "econ": 25,
             "dipl": 30,
             "govt": 15,
-            "scty": 45
+            "scty": 45,
+            "w": 70,
+            "t": 70,
+            "r": 70
         }
     },
     {
@@ -314,7 +425,10 @@ ideologies = [
             "econ": 5,
             "dipl": 15,
             "govt": 5,
-            "scty": 15
+            "scty": 15,
+            "w": 80,
+            "t": 70,
+            "r": 80
         }
     },
     {
@@ -323,7 +437,10 @@ ideologies = [
             "econ": 65,
             "dipl": 5,
             "govt": 20,
-            "scty": 5
+            "scty": 5,
+            "w": 40,
+            "t": 10,
+            "r": 5
         }
     },
     {
@@ -332,7 +449,10 @@ ideologies = [
             "econ": 60,
             "dipl": 10,
             "govt": 20,
-            "scty": 10
+            "scty": 10,
+            "w": 30,
+            "t": 50,
+            "r": 10
         }
     }
 ];
