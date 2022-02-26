@@ -268,7 +268,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 7,
-            "w": 0,
+            "w": -2,
             "govt": 0,
             "scty": 0,
             "t": 0,
@@ -304,7 +304,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 10,
-            "w": 0,
+            "w": 2,
             "govt": 5,
             "scty": 0,
             "t": 0,
@@ -324,7 +324,7 @@ questions = [
         }
     },
     {
-        "question": "It doesn't bother me if an immigrant flies the flag of their home country rather than the national flag.",
+        "question": "It doesn't bother me if an immigrant flies the flag of his home country rather than the national flag.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -788,7 +788,7 @@ questions = [
             "govt": 0,
             "scty": 10,
             "t": 0,
-            "r": -10
+            "r": -2
         }
     },
     {
@@ -816,6 +816,18 @@ questions = [
         }
     },
     {
+        "question": "It is better that different races stay in their own countries than them mixing with eachother.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "w": 0,
+            "govt": 0,
+            "scty": -10,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
         "question": "Feminism has made the world better.",
         "effect": {
             "econ": 0,
@@ -828,7 +840,139 @@ questions = [
         }
     },
     {
+        "question": "Certain races have done more for humanity than others.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": -10,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
         "question": "War is a universal evil.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -15,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "We should not use our military to defend other countries.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -15,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "If other countries violate human rights it is not our problem.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -10,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "I would support cuts to military spending.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -10,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Nations fall apart with constant war.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -10,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Supporting groups in foreign wars is a bad idea, as it risks war.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -15,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "It is more important to maintain peaceful relations than to further out strength.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -7,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "If a military exists at all, it should be used for defence only.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": -10,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "War brings out the best in a nation.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 10,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Deployment of troops abroad is necessary to protect our national interests.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 10,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "We should spread our ideology/values to other nations by military force if necessary.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -840,15 +984,507 @@ questions = [
         }
     },
     {
-        "question": "Certain races are inferior to others.",
+        "question": "War is justified if waged against an evil enemy.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 10,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "We should attempt to conquer foreign lands.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 12,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "It is the destiny of my ideal nation to rule the world.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "w": 15,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Many of our present-day problems can be solved by technology.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
             "govt": 0,
-            "scty": -10,
-            "t": 0,
+            "scty": 0,
+            "t": 15,
             "r": 0
+        }
+    },
+    {
+        "question": "Genetic modification of plants and animals is acceptable.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 10,
+            "r": 0
+        }
+    },
+    {
+        "question": "Genetic modification of humans is acceptable.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 15,
+            "r": 0
+        }
+    },
+    {
+        "question": "The matrix seems like a utopia to me.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 5,
+            "r": 0
+        }
+    },
+    {
+        "question": "I would prefer to live in a city over a rural area.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 10,
+            "r": 0
+        }
+    },
+    {
+        "question": "The technology of the future will preserve the environment.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 10,
+            "r": 0
+        }
+    },
+    {
+        "question": "Science will solve all of our problems given enough time and resources.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 15,
+            "r": 0
+        }
+    },
+    {
+        "question": "Genetic modification of humans is acceptable.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 15,
+            "r": 0
+        }
+    },
+    {
+        "question": "I have taken at least one dose of a coronavirus vaccine, and was not forced to do so.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 7,
+            "r": 0
+        }
+    },
+    {
+        "question": "If given the choice, I would reject an extension of my lifespan by centuries.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 12,
+            "r": 0
+        }
+    },
+    {
+        "question": "The only morally acceptable means of procreation is natural conception.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -12,
+            "r": 0
+        }
+    },
+    {
+        "question": "The Industrial Revolution and its consequences have been a disaster for the human race.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": -2,
+            "t": -10,
+            "r": 0
+        }
+    },
+    {
+        "question": "I would not replace my functioning limbs with mechanical ones.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -10,
+            "r": 0
+        }
+    },
+    {
+        "question": "I would prefer to live in a rural town than in an urban city.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -10,
+            "r": 0
+        }
+    },
+    {
+        "question": "AI poses a massive threat to humanity.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -10,
+            "r": 0
+        }
+    },
+    {
+        "question": "Transhumanism is one of the greatest dangers to manking in the modern day.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -15,
+            "r": 0
+        }
+    },
+    {
+        "question": "Technology is the cause of much of our suffering.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -10,
+            "r": 0
+        }
+    },
+    {
+        "question": "I choose not to get flu shots.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -10,
+            "r": 0
+        }
+    },
+    {
+        "question": "I will never, or will never again, get a vaccine.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -12,
+            "r": 0
+        }
+    },
+    {
+        "question": "Many of our present-day problems are caused by technology.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -15,
+            "r": 0
+        }
+    },
+    {
+        "question": "I would oppose replacing school teachers with robots.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -7,
+            "r": 0
+        }
+    },
+    {
+        "question": "It is immoral to attempt to achieve immortality.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": -12,
+            "r": 0
+        }
+    },
+    {
+        "question": "There is something more to life than living and dying.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 10
+        }
+    },
+    {
+        "question": "I believe in heaven and/or hell, or equivalent concepts.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 10
+        }
+    },
+    {
+        "question": "Society should be centered around religion.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 15
+        }
+    },
+    {
+        "question": "The biggest divide in the modern day is between the secular and the religious.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 10
+        }
+    },
+    {
+        "question": "I belive that attending a religious service (such as church) is a moral necessity.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 15
+        }
+    },
+    {
+        "question": "I believe in one or many gods.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 10
+        }
+    },
+    {
+        "question": "There is such a thing as truth.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 10
+        }
+    },
+    {
+        "question": "Atheists are bad people.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 10
+        }
+    },
+    {
+        "question": "Objective morality is a pharse.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": -15
+        }
+    },
+    {
+        "question": "No god should have authority over mankind.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 2,
+            "scty": 2,
+            "t": 0,
+            "r": -10
+        }
+    },
+    {
+        "question": "There is no justice or judgement after death.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": -10
+        }
+    },
+    {
+        "question": "There is no evidence that a god or gods exist at all.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": -15
+        }
+    },
+    {
+        "question": "Organised religions have much in common with cults.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": -10
+        }
+    },
+    {
+        "question": "I hate religious people.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": -15
+        }
+    },
+    {
+        "question": "Objective morality is a pharse.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 5,
+            "t": 0,
+            "r": -15
+        }
+    },
+    {
+        "question": "I am a materialist.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 5,
+            "t": 2,
+            "r": -10
+        }
+    },
+    {
+        "question": "There is nothing after death.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": -10
         }
     }
 ];
