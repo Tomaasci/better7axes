@@ -816,7 +816,7 @@ questions = [
         }
     },
     {
-        "question": "It is better that different races stay in their own countries than them mixing with eachother.",
+        "question": "It is better that different races stay in their own countries, rather than them mixing with eachother.",
         "effect": {
             "econ": 0,
             "dipl": -10,
