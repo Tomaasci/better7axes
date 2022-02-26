@@ -35,10 +35,10 @@
 </div>
 <h2>War Axis: <span class="weight-300" id="w-label"></span></h2>
 <div class="axis">
-    <img id="img-jingoism" src="value_images/jingoism.png" height="128pt"/>
-    <div class="bar jingoism" id="bar-jingoism"><div class="text-wrapper" id="jingoism"></div></div>
-    <div class="bar pacifism" id="bar-pacifism"><div class="text-wrapper" id="pacifism"></div></div>
     <img id="img-pacifism" src="value_images/pacifism.png" height="128pt"/>
+    <div class="bar pacifism" id="bar-pacifism"><div class="text-wrapper" id="pacifism"></div></div>
+    <div class="bar jingoism" id="bar-jingoism"><div class="text-wrapper" id="jingoism"></div></div>
+    <img id="img-jingoism" src="value_images/jingoism.png" height="128pt"/>
 </div>
 <h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
@@ -127,7 +127,7 @@
     jingoism  = (100 - peace   ).toFixed(1)
     authority = (100 - liberty ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
-    accel     = (100 - liberty ).toFixed(1)
+    accel     = (100 - decel   ).toFixed(1)
     atheistic = (100 - progress).toFixed(1)
 
     setBarValue("equality", equality)
