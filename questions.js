@@ -1200,7 +1200,7 @@ questions = [
         }
     },
     {
-        "question": "Transhumanism is one of the greatest dangers to manking in the modern day.",
+        "question": "Transhumanism is one of the greatest dangers to mankind in the modern day.",
         "effect": {
             "econ": 0,
             "dipl": 0,
