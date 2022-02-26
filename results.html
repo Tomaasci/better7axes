@@ -56,10 +56,10 @@
 </div>
 <h2>Technological Axis: <span class="weight-300" id="t-label"></span></h2>
 <div class="axis">
-    <img id="img-accel" src="value_images/accel.png" height="128pt"/>
-    <div class="bar accel" id="bar-accel"><div class="text-wrapper" id="accel"></div></div>
-    <div class="bar decel" id="bar-decel"><div class="text-wrapper" id="decel"></div></div>
     <img id="img-decel" src="value_images/decel.png" height="128pt"/>
+    <div class="bar decel" id="bar-decel"><div class="text-wrapper" id="decel"></div></div>
+    <div class="bar accel" id="bar-accel"><div class="text-wrapper" id="accel"></div></div>
+    <img id="img-accel" src="value_images/accel.png" height="128pt"/>
 </div>
 <h2>Religious Axis: <span class="weight-300" id="r-label"></span></h2>
 <div class="axis">
@@ -122,13 +122,13 @@
     progress  = getQueryVariable("s")
     decel     = getQueryVariable("w")
     religious = getQueryVariable("w")
-    wealth    = (100 - equality).toFixed(1)
-    might     = (100 - peace   ).toFixed(1)
-    jingoism  = (100 - peace   ).toFixed(1)
-    authority = (100 - liberty ).toFixed(1)
-    tradition = (100 - progress).toFixed(1)
-    accel     = (100 - decel   ).toFixed(1)
-    atheistic = (100 - progress).toFixed(1)
+    wealth    = (100 - equality ).toFixed(1)
+    might     = (100 - peace    ).toFixed(1)
+    jingoism  = (100 - pacifism ).toFixed(1)
+    authority = (100 - liberty  ).toFixed(1)
+    tradition = (100 - progress ).toFixed(1)
+    accel     = (100 - decel    ).toFixed(1)
+    atheistic = (100 - religious).toFixed(1)
 
     setBarValue("equality", equality)
     setBarValue("wealth", wealth)
