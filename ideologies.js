@@ -110,7 +110,7 @@ ideologies = [
     {
         "name": "Classical Liberalism",
         "stats": {
-            "econ": 20,
+            "econ": 25,
             "dipl": 40,
             "govt": 65,
             "scty": 50,
@@ -288,6 +288,18 @@ ideologies = [
         }
     },
     {
+        "name": "Libertarian Capitalism",
+        "stats": {
+            "econ": 20,
+            "dipl": 70,
+            "govt": 75,
+            "scty": 65,
+            "w": 40,
+            "t": 80,
+            "r": 65
+        }
+    },
+    {
         "name": "Anarcho-Capitalism",
         "stats": {
             "econ": 0,
@@ -308,6 +320,18 @@ ideologies = [
             "scty": 35,
             "w": 80,
             "t": 75,
+            "r": 75
+        }
+    },
+    {
+        "name": "Tecnocratic Liberalism",
+        "stats": {
+            "econ": 40,
+            "dipl": 40,
+            "govt": 30,
+            "scty": 85,
+            "w": 80,
+            "t": 80,
             "r": 75
         }
     },
@@ -465,6 +489,30 @@ ideologies = [
             "w": 40,
             "t": 10,
             "r": 100
+        }
+    },
+    {
+        "name": "Religious Socialism",
+        "stats": {
+            "econ": 75,
+            "dipl": 50,
+            "govt": 25,
+            "scty": 50,
+            "w": 40,
+            "t": 70,
+            "r": 80
+        }
+    },
+    {
+        "name": "Religious Communism",
+        "stats": {
+            "econ": 85,
+            "dipl": 50,
+            "govt": 15,
+            "scty": 40,
+            "w": 70,
+            "t": 70,
+            "r": 80
         }
     },
     {
