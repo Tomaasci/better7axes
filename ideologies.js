@@ -300,7 +300,7 @@ ideologies = [
         }
     },
     {
-        "name": "Neoconservatism",
+        "name": "Neo-Conservatism",
         "stats": {
             "econ": 40,
             "dipl": 40,
@@ -309,6 +309,30 @@ ideologies = [
             "w": 80,
             "t": 75,
             "r": 75
+        }
+    },
+    {
+        "name": "Neo-Liberalism",
+        "stats": {
+            "econ": 40,
+            "dipl": 20,
+            "govt": 35,
+            "scty": 65,
+            "w": 80,
+            "t": 75,
+            "r": 25
+        }
+    },
+    {
+        "name": "Liberal Nationalism",
+        "stats": {
+            "econ": 40,
+            "dipl": 20,
+            "govt": 35,
+            "scty": 65,
+            "w": 90,
+            "t": 75,
+            "r": 25
         }
     },
     {
