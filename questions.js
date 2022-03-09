@@ -389,7 +389,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": -10,
+            "govt": 10,
             "scty": 0,
             "t": 0,
             "r": 0
@@ -425,7 +425,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": -10,
+            "govt": -15,
             "scty": 0,
             "t": 0,
             "r": 0
@@ -480,37 +480,37 @@ questions = [
         }
     },
     {
-        "question": "Sodomy should be illegal.",
+        "question": "Things that are morally wrong should be illegal.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
             "govt": -10,
-            "scty": -15,
+            "scty": 0,
             "t": 0,
             "r": 0
         }
     },
     {
-        "question": "Adultery should be illegal.",
+        "question": "I have respect for strong leaders, even if I disagree with their policies.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
             "govt": -10,
-            "scty": -10,
+            "scty": 0,
             "t": 0,
             "r": 0
         }
     },
     {
-        "question": "Racists should be publicly shamed and harassed.",
+        "question": "Bad/Evil people should be publicly shamed and harassed.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": 7,
-            "scty": 10,
+            "govt": -10,
+            "scty": 0,
             "t": 0,
             "r": 0
         }
@@ -570,7 +570,7 @@ questions = [
             "dipl": 0,
             "w": 0,
             "govt": 0,
-            "scty": -15,
+            "scty": -10,
             "t": 0,
             "r": 0
         }
@@ -588,7 +588,7 @@ questions = [
         }
     },
     {
-        "question": "There is nothing wrong with poligamy.",
+        "question": "There is nothing wrong with promiscuity.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -648,7 +648,7 @@ questions = [
         }
     },
     {
-        "question": "I have no moral objections to men wearing dresses in public.",
+        "question": "I have no moral objections to men dressing as women.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -684,13 +684,13 @@ questions = [
         }
     },
     {
-        "question": "Prematrital sex should be illegal.",
+        "question": "The roles of men and women in society are social constructs.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": -10,
-            "scty": -10,
+            "govt": 0,
+            "scty": 10,
             "t": 0,
             "r": 0
         }
@@ -708,7 +708,7 @@ questions = [
         }
     },
     {
-        "question": "Climate change is a serious threat to humanity.",
+        "question": "We should strive to be as diverse as possible at all times.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -720,7 +720,7 @@ questions = [
         }
     },
     {
-        "question": "The fundamental flaw of western societies is that their people have lost connection to their past.",
+        "question": "The fundamental flaw of western societies is that their people have lost connection to the ways of the past.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -868,7 +868,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "w": -15,
+            "w": -10,
             "govt": 0,
             "scty": 0,
             "t": 0,
@@ -888,7 +888,7 @@ questions = [
         }
     },
     {
-        "question": "I would support cuts to military spending.",
+        "question": "We should spend less than 2.3% of our GDP on the military.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -916,7 +916,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "w": -15,
+            "w": -10,
             "govt": 0,
             "scty": 0,
             "t": 0,
@@ -924,7 +924,7 @@ questions = [
         }
     },
     {
-        "question": "It is more important to maintain peaceful relations than to further out strength.",
+        "question": "It is more important to maintain peaceful relations than to further our strength.",
         "effect": {
             "econ": 0,
             "dipl": 0,
