@@ -24,6 +24,30 @@ ideologies = [
         }
     },
     {
+        "name": "Social Liberalism",
+        "stats": {
+            "econ": 60,
+            "dipl": 75,
+            "govt": 70,
+            "scty": 70,
+            "w": 30,
+            "t": 60,
+            "r": 30
+        }
+    },
+    {
+        "name": "Christian Democracy",
+        "stats": {
+            "econ": 35,
+            "dipl": 75,
+            "govt": 50,
+            "scty": 70,
+            "w": 30,
+            "t": 60,
+            "r": 70
+        }
+    },
+    {
         "name": "Paleoconservatism",
         "stats": {
             "econ": 40,
@@ -400,11 +424,11 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 70,
-            "govt": 30,
+            "govt": 50,
             "scty": 70,
             "w": 25,
-            "t": 80,
-            "r": 20
+            "t": 65,
+            "r": 50
         }
     },
     {
