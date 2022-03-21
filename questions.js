@@ -62,7 +62,7 @@ questions = [
     {
         "question": "Private charity is a bad thing, as it prevents the masses from reaching the conditions that cause revolution.",
         "effect": {
-            "econ": 15,
+            "econ": 7,
             "dipl": 0,
             "w": 0,
             "govt": 0,
@@ -86,7 +86,7 @@ questions = [
     {
         "question": "Selfishness, when it relates to economy, should be rewarded.",
         "effect": {
-            "econ": -15,
+            "econ": -7,
             "dipl": 0,
             "w": 0,
             "govt": 0,
@@ -122,7 +122,7 @@ questions = [
     {
         "question": "Communism is an ideal that can never work in practice.",
         "effect": {
-            "econ": -5,
+            "econ": -7,
             "dipl": 0,
             "w": 0,
             "govt": 0,
@@ -158,7 +158,7 @@ questions = [
     {
         "question": "The rich do not pay their fair share.",
         "effect": {
-            "econ": -7,
+            "econ": -10,
             "dipl": 0,
             "w": 0,
             "govt": 0,
@@ -171,6 +171,126 @@ questions = [
         "question": "Environmental regulations benefit society.",
         "effect": {
             "econ": 7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Public roads benefit society.",
+        "effect": {
+            "econ": 7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Private schools benefit society.",
+        "effect": {
+            "econ": -7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Wealthy inequality is not a problem in our nation.",
+        "effect": {
+            "econ": 7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Property rights are vital to a functioning society.",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "The only solution to recession is less government intervention.",
+        "effect": {
+            "econ": -7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Monopolies can only exist with government intervention.",
+        "effect": {
+            "econ": -7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Wage labour is theft.",
+        "effect": {
+            "econ": 7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Workplaces should be more democratic.",
+        "effect": {
+            "econ": 7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "A genuine capitalist free market regulates itself.",
+        "effect": {
+            "econ": 7,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "It is counter-productive to focus on equal outcomes rather than equal oppurtunities.",
+        "effect": {
+            "econ": -10,
             "dipl": 0,
             "w": 0,
             "govt": 0,
