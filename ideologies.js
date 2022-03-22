@@ -4,11 +4,23 @@ ideologies = [
         "stats": {
             "econ": 50,
             "dipl": 15,
-            "govt": 40,
+            "govt": 50,
             "scty": 10,
             "w": 40,
             "t": 20,
             "r": 90
+        }
+    },
+    {
+        "name": "Neo-Feudal Monarchism",
+        "stats": {
+            "econ": 25,
+            "dipl": 20,
+            "govt": 22,
+            "scty": 10,
+            "w": 70,
+            "t": 15,
+            "r": 91
         }
     },
     {
