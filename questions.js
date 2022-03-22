@@ -497,7 +497,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": 7,
+            "govt": -7,
             "scty": 0,
             "t": 0,
             "r": 0
@@ -654,6 +654,90 @@ questions = [
             "dipl": 0,
             "w": 0,
             "govt": 10,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Live and let live is a good principle to live by.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 10,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Human rights are inalienable.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 7,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "The will of the people is one of the most important factors in determining policy.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 7,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Due to the flaws of human nature a government is necessary.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": -7,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Oftentimes the best decision a person can make is to do what authority figures tell them to.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": -7,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "I care more about my life than about my liberties.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": -10,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "I would not die for freedom.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": -10,
             "scty": 0,
             "t": 0,
             "r": 0
