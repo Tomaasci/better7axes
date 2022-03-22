@@ -183,9 +183,9 @@
         var c = document.createElement("canvas")
         var ctx = c.getContext("2d")
         c.width = 800;
-        c.height = 1010;
+        c.height = 1110;
         ctx.fillStyle = "#858585"
-        ctx.fillRect(0,0,800,1010);
+        ctx.fillRect(0,0,800,1110);
 
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 170, 100, 100);
@@ -258,6 +258,9 @@
         ctx.fillText("7Axes", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
+        ctx.font="700 40px Montserrat"
+        ctx.textAlign="center"
+        ctx.fillText("https://bannnedb.github.io/7axes/", 0, 1060)
 
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
