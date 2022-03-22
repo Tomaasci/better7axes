@@ -516,15 +516,147 @@ ideologies = [
         }
     },
     {
-        "name": "Theocratic Monarchism",
+        "name": "Reactionary Theocratism",
         "stats": {
-            "econ": 65,
-            "dipl": 5,
+            "econ": 60,
+            "dipl": 15,
             "govt": 25,
-            "scty": 5,
+            "scty": 10,
             "w": 40,
             "t": 10,
             "r": 100
+        }
+    },
+    {
+        "name": "Reactionary Socialism",
+        "stats": {
+            "econ": 75,
+            "dipl": 15,
+            "govt": 25,
+            "scty": 10,
+            "w": 40,
+            "t": 10,
+            "r": 100
+        }
+    },
+    {
+        "name": "Agrarian Socialism",
+        "stats": {
+            "econ": 75,
+            "dipl": 30,
+            "govt": 30,
+            "scty": 30,
+            "w": 50,
+            "t": 10,
+            "r": 60
+        }
+    },
+    {
+        "name": "Agnostic Liberalism",
+        "stats": {
+            "econ": 60,
+            "dipl": 70,
+            "govt": 50,
+            "scty": 70,
+            "w": 40,
+            "t": 60,
+            "r": 50
+        }
+    },
+    {
+        "name": "Secular Fascism",
+        "stats": {
+            "econ": 50,
+            "dipl": 10,
+            "govt": 15,
+            "scty": 20,
+            "w": 85,
+            "t": 75,
+            "r": 40
+        }
+    },
+    {
+        "name": "Authoritarian Transhumanism",
+        "stats": {
+            "econ": 55,
+            "dipl": 40,
+            "govt": 30,
+            "scty": 80,
+            "w": 50,
+            "t": 90,
+            "r": 20
+        }
+    },
+    {
+        "name": "Imperial Centrism",
+        "stats": {
+            "econ": 50,
+            "dipl": 55,
+            "govt": 45,
+            "scty": 50,
+            "w": 100,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Enlightened Absolutism",
+        "stats": {
+            "econ": 30,
+            "dipl": 25,
+            "govt": 15,
+            "scty": 25,
+            "w": 75,
+            "t": 20,
+            "r": 80
+        }
+    },
+    {
+        "name": "Neo-Reactionarism",
+        "stats": {
+            "econ": 30,
+            "dipl": 10,
+            "govt": 25,
+            "scty": 10,
+            "w": 35,
+            "t": 25,
+            "r": 75
+        }
+    },
+    {
+        "name": "Autocracy",
+        "stats": {
+            "econ": 50,
+            "dipl": 20,
+            "govt": 20,
+            "scty": 30,
+            "w": 70,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Libertarian Transhumanism",
+        "stats": {
+            "econ": 45,
+            "dipl": 70,
+            "govt": 75,
+            "scty": 75,
+            "w": 20,
+            "t": 90,
+            "r": 20
+        }
+    },
+    {
+        "name": "Reactionary Libertarianism",
+        "stats": {
+            "econ": 30,
+            "dipl": 10,
+            "govt": 75,
+            "scty": 20,
+            "w": 20,
+            "t": 20,
+            "r": 70
         }
     },
     {
@@ -552,6 +684,78 @@ ideologies = [
         }
     },
     {
+        "name": "Militant Globalism",
+        "stats": {
+            "econ": 35,
+            "dipl": 90,
+            "govt": 45,
+            "scty": 80,
+            "w": 90,
+            "t": 70,
+            "r": 20
+        }
+    },
+    {
+        "name": "Social Nationalism",
+        "stats": {
+            "econ": 60,
+            "dipl": 25,
+            "govt": 35,
+            "scty": 30,
+            "w": 60,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Welfare Capitalism",
+        "stats": {
+            "econ": 60,
+            "dipl": 60,
+            "govt": 50,
+            "scty": 60,
+            "w": 30,
+            "t": 65,
+            "r": 50
+        }
+    },
+    {
+        "name": "Conservative Liberalism",
+        "stats": {
+            "econ": 55,
+            "dipl": 30,
+            "govt": 30,
+            "scty": 30,
+            "w": 70,
+            "t": 65,
+            "r": 50
+        }
+    },
+    {
+        "name": "Third Way Liberalism",
+        "stats": {
+            "econ": 50,
+            "dipl": 60,
+            "govt": 40,
+            "scty": 50,
+            "w": 25,
+            "t": 75,
+            "r": 50
+        }
+    },
+    {
+        "name": "Trumpism",
+        "stats": {
+            "econ": 30,
+            "dipl": 30,
+            "govt": 35,
+            "scty": 40,
+            "w": 70,
+            "t": 50,
+            "r": 65
+        }
+    },
+    {
         "name": "Falangism",
         "stats": {
             "econ": 60,
@@ -560,7 +764,7 @@ ideologies = [
             "scty": 10,
             "w": 30,
             "t": 50,
-            "r": 10
+            "r": 20
         }
     }
 ];
