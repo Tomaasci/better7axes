@@ -36,6 +36,18 @@ ideologies = [
         }
     },
     {
+        "name": "Market Anarchism",
+        "stats": {
+            "econ": 50,
+            "dipl": 80,
+            "govt": 90,
+            "scty": 90,
+            "w": 50,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
         "name": "Social Liberalism",
         "stats": {
             "econ": 60,
