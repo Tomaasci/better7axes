@@ -159,11 +159,11 @@
         dist = 0
         dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
         dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2.1)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.w - jingoism), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.w - jingoism), 1.2)
         dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.t - accel), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.r - religious), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.t - accel), 1.2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.r - religious), 1.2)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
