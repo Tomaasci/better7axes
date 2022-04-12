@@ -14,13 +14,73 @@ ideologies = [
     {
         "name": "Neo-Feudal Monarchism",
         "stats": {
-            "econ": 25,
+            "econ": 15,
             "dipl": 20,
             "govt": 22,
             "scty": 10,
             "w": 70,
             "t": 15,
             "r": 91
+        }
+    },
+    {
+        "name": "Marxism",
+        "stats": {
+            "econ": 90,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 70,
+            "w": 50,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Lassiez-Faire Capitalism",
+        "stats": {
+            "econ": 5,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50,
+            "w": 50,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Fiscal Conservatism",
+        "stats": {
+            "econ": 25,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50,
+            "w": 50,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Fiscal Conservatism",
+        "stats": {
+            "econ": 25,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50,
+            "w": 50,
+            "t": 50,
+            "r": 50
+        }
+    },
+    {
+        "name": "Fiscal Conservatism",
+        "stats": {
+            "econ": 25,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50,
+            "w": 50,
+            "t": 50,
+            "r": 50
         }
     },
     {
@@ -50,10 +110,10 @@ ideologies = [
     {
         "name": "Social Liberalism",
         "stats": {
-            "econ": 60,
-            "dipl": 75,
-            "govt": 70,
-            "scty": 70,
+            "econ": 55,
+            "dipl": 55,
+            "govt": 50,
+            "scty": 80,
             "w": 30,
             "t": 60,
             "r": 30
