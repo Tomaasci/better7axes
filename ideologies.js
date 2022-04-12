@@ -399,9 +399,9 @@ ideologies = [
         "name": "Libertarian Capitalism",
         "stats": {
             "econ": 20,
-            "dipl": 70,
+            "dipl": 50,
             "govt": 75,
-            "scty": 65,
+            "scty": 60,
             "w": 40,
             "t": 80,
             "r": 65
