@@ -230,67 +230,67 @@ div.text-wrapper {
     display: inline-block;
 }
 div.equality {
-    background-color: #a90b0b;
+    background-color: #ff0000;
     text-align: left;
     border-right-style: solid;
 }
 div.wealth {
-    background-color: #0ba95d;
+    background-color: #00bb66;
     text-align: right;
     border-left-style: solid;
 }
 div.liberty {
-    background-color: #a3a90b;
+    background-color: #fff000;
     text-align: left;
     border-right-style: solid;
 }
 div.authority {
-    background-color: #4a0ba9;
+    background-color: #000fff;
     text-align: right;
     border-left-style: solid;
 }
-div.peace {
-    background-color: #0b68a9;
+div.peace { /* Globalism */
+    background-color: #40c0ff;
     text-align: right;
     border-left-style: solid;
 }
 div.jingoism {
-    background-color: #4baf1a;
+    background-color: #277700;
     text-align: left;
     border-right-style: solid;
 }
 div.pacifism {
-    background-color: #a8a2a0;
+    background-color: #c0c0c0;
     text-align: right;
     border-left-style: solid;
 }
-div.might {
-    background-color: #a9380b;
+div.might { /*Nationalism IG*/
+    background-color: #ffa000;
     text-align: left;
     border-right-style: solid;
 }
 div.progress {
-    background-color: #a90ba3;
+    background-color: #ff00ff;
     text-align: right;
     border-left-style: solid;
 }
 div.tradition {
-    background-color: #0b0fa9;
+    background-color: #910091;
     text-align: left;
     border-right-style: solid;
 }
 div.accel {
-    background-color: #1aafa3;
+    background-color: #00ffff;
     text-align: left;
     border-right-style: solid;
 }
 div.decel {
-    background-color: #afad1a;
+    background-color: #00ff00;
     text-align: right;
     border-left-style: solid;
 }
 div.religious {
-    background-color: #d2dab7;
+    background-color: #eeffa0;
     text-align: left;
     border-right-style: solid;
 }
