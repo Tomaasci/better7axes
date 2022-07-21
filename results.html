@@ -33,7 +33,7 @@
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
     <img id="img-peace" src="value_images/globe.png" height="128pt"/>
 </div>
-<h2>War Axis: <span class="weight-300" id="w-label"></span></h2>
+<h2>Militarist Axis: <span class="weight-300" id="w-label"></span></h2>
 <div class="axis">
     <img id="img-jingoism" src="value_images/jingoism.png" height="128pt"/>
     <div class="bar jingoism" id="bar-jingoism"><div class="text-wrapper" id="jingoism"></div></div>
@@ -47,7 +47,7 @@
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/authority.png" height="128pt"/>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>Cultural Axis: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.png" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
@@ -95,13 +95,13 @@
         }
     }
 
-    econArray = ["Communist","Socialist","Liberal","Centrist","Regulationist","Capitalist","Market Fundamentalist"]
-    diplArray = ["World Federalist","Globalist","Multiculturalist","Centrist","Patriot","Nationalist","Ultranationalist"]
-    wArray = ["Imperialist","Warmonger","Interventionist","Centrist","Moderate Pacifist","Pacifist","Extreme Pacifist"]
+    econArray = ["Communist","Socialist","Social","Centrist","Regulationist","Capitalist","Laissez-Faire"]
+    diplArray = ["World Federalist","Globalist","Internationalist","Centrist","Patriot","Nationalist","Ultranationalist"]
+    wArray = ["Imperialist","Militarist","Interventionist","Centrist","Moderate Pacifist","Pacifist","Extreme Pacifist"]
     govtArray = ["Anarchist","Minarchist","Libertarian","Centrist","Statist","Authoritarian","Totalitarian"]
     sctyArray = ["Revolutionary","Radical","Progressive","Centrist","Conservative","Traditionalist","Reactionary"]
-    tArray = ["Transhumanist","Radical Accelerationist","Accelerationist","Centrist","Decelerationist","Agrarian","Primitivist"]
-    rArray = ["Fundamentalist","Devout","Moderate","Agnostic","Atheist","Anti-Theist","Militant Atheist"]
+    tArray = ["Transhumanist","Accelerationist","Technological","Centrist","Decelerationist","Agrarian","Primitivist"]
+    rArray = ["Theocratic","Religious","Devout","Centrist","Secular","Atheist","State Atheist"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
