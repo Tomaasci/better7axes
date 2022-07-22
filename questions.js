@@ -1,6 +1,6 @@
 questions = [
     {
-        "question":"This question should give you 120 equality",
+        "question": "This question should give you 120 equality.",
         "effect": {
             "econ": 120,
             "dipl": 0,
