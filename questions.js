@@ -1,7 +1,7 @@
 questions = [
     {
-        "question":"This question should give you 120 equality"
- "effect": {
+        "question":"This question should give you 120 equality",
+        "effect": {
             "econ": 120,
             "dipl": 0,
             "w": 0,
