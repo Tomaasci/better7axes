@@ -1,299 +1,324 @@
 <head>
-<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
-<link href='style.css' rel='stylesheet' type='text/css'>
-<title>Better7Axes Results</title>
-<link rel="icon" type="x-icon" href="icon.png">
-<link rel="shortcut icon" type="x-icon" href="icon.png">
-<meta charset="utf-8">
-<script>
-  version = "Version 0.5 (21/7/22)" //Remember to update this before making changes to the test itself!
-</script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <title>Better7Axes Results</title>
+    <link rel="icon" type="x-icon" href="icon.png">
+    <link rel="shortcut icon" type="x-icon" href="icon.png">
+    <meta charset="utf-8">
+    <script>
+        version = "Version 0.5 (21/7/22)" //Remember to update this before making changes to the test itself!
+    </script>
 </head>
-<script type="application/javascript"
-        src="ideologies.js">
+<script type="application/javascript" src="ideologies.js">
 </script>
 
 <body>
-<h1>Better7Axes</h1>
-<hr>
+    <h1>Better7Axes</h1>
+    <hr>
 
-<h1>Results</h1>
+    <h1>Results</h1>
 
-<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
-<div class="axis">
-    <img id="img-equality" src="value_images/equality.png" height="128pt"/>
-    <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
-    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/markets.png" height="128pt"/>
-</div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
-<div class="axis">
-    <img id="img-might" src="value_images/nation.png" height="128pt"/>
-    <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
-    <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/globe.png" height="128pt"/>
-</div>
-<h2>Militarist Axis: <span class="weight-300" id="w-label"></span></h2>
-<div class="axis">
-    <img id="img-jingoism" src="value_images/jingoism.png" height="128pt"/>
-    <div class="bar jingoism" id="bar-jingoism"><div class="text-wrapper" id="jingoism"></div></div>
-    <div class="bar pacifism" id="bar-pacifism"><div class="text-wrapper" id="pacifism"></div></div>
-    <img id="img-pacifism" src="value_images/pacifism.png" height="128pt"/>
-</div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
-<div class="axis">
-    <img id="img-liberty" src="value_images/liberty.png" height="128pt"/>
-    <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
-    <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" src="value_images/authority.png" height="128pt"/>
-</div>
-<h2>Cultural Axis: <span class="weight-300" id="society-label"></span></h2>
-<div class="axis">
-    <img id="img-tradition" src="value_images/tradition.png" height="128pt"/>
-    <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
-    <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" src="value_images/progress.png" height="128pt"/>
-</div>
-<h2>Technological Axis: <span class="weight-300" id="t-label"></span></h2>
-<div class="axis">
-    <img id="img-accel" src="value_images/accel.png" height="128pt"/>
-    <div class="bar accel" id="bar-accel"><div class="text-wrapper" id="accel"></div></div>
-    <div class="bar decel" id="bar-decel"><div class="text-wrapper" id="decel"></div></div>
-    <img id="img-decel" src="value_images/decel.png" height="128pt"/>
-</div>
-<h2>Religious Axis: <span class="weight-300" id="r-label"></span></h2>
-<div class="axis">
-    <img id="img-religious" src="value_images/religious.png" height="128pt"/>
-    <div class="bar religious" id="bar-religious"><div class="text-wrapper" id="religious"></div></div>
-    <div class="bar atheistic" id="bar-atheistic"><div class="text-wrapper" id="atheistic"></div></div>
-    <img id="img-atheistic" src="value_images/atheistic.png" height="128pt"/>
-</div>
-<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p>You can send these results by copying and pasting the URL at the top of the page or using the image below.</p>
-<hr/>
-<img src="" id="banner">
-<button class="button" onclick="location.href='index.html';">Back</button> <br>
-<script>
-    function getQueryVariable(variable)
-    {
-           var query = window.location.search.substring(1)
-           var vars = query.split("&")
-           for (var i=0;i<vars.length;i++) {
-                   var pair = vars[i].split("=")
-                   if(pair[0] == variable) {return pair[1]}
-           }
-           return(NaN);
-    }
-
-    function setBarValue(name, value) {
-        innerel = document.getElementById(name)
-        outerel = document.getElementById("bar-" + name)
-        outerel.style.width = (value + "%")
-        innerel.innerHTML = (value + "%")
-        if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
-            innerel.style.visibility = "hidden"
+    <h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+    <div class="axis">
+        <img id="img-equality" src="value_images/equality.png" height="128pt" />
+        <div class="bar equality" id="bar-equality">
+            <div class="text-wrapper" id="equality"></div>
+        </div>
+        <div class="bar wealth" id="bar-wealth">
+            <div class="text-wrapper" id="wealth"></div>
+        </div>
+        <img id="img-wealth" src="value_images/markets.png" height="128pt" />
+    </div>
+    <h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+    <div class="axis">
+        <img id="img-might" src="value_images/nation.png" height="128pt" />
+        <div class="bar might" id="bar-might">
+            <div class="text-wrapper" id="might"></div>
+        </div>
+        <div class="bar peace" id="bar-peace">
+            <div class="text-wrapper" id="peace"></div>
+        </div>
+        <img id="img-peace" src="value_images/globe.png" height="128pt" />
+    </div>
+    <h2>Militarist Axis: <span class="weight-300" id="w-label"></span></h2>
+    <div class="axis">
+        <img id="img-jingoism" src="value_images/jingoism.png" height="128pt" />
+        <div class="bar jingoism" id="bar-jingoism">
+            <div class="text-wrapper" id="jingoism"></div>
+        </div>
+        <div class="bar pacifism" id="bar-pacifism">
+            <div class="text-wrapper" id="pacifism"></div>
+        </div>
+        <img id="img-pacifism" src="value_images/pacifism.png" height="128pt" />
+    </div>
+    <h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+    <div class="axis">
+        <img id="img-liberty" src="value_images/liberty.png" height="128pt" />
+        <div class="bar liberty" id="bar-liberty">
+            <div class="text-wrapper" id="liberty"></div>
+        </div>
+        <div class="bar authority" id="bar-authority">
+            <div class="text-wrapper" id="authority"></div>
+        </div>
+        <img id="img-authority" src="value_images/authority.png" height="128pt" />
+    </div>
+    <h2>Cultural Axis: <span class="weight-300" id="society-label"></span></h2>
+    <div class="axis">
+        <img id="img-tradition" src="value_images/tradition.png" height="128pt" />
+        <div class="bar tradition" id="bar-tradition">
+            <div class="text-wrapper" id="tradition"></div>
+        </div>
+        <div class="bar progress" id="bar-progress">
+            <div class="text-wrapper" id="progress"></div>
+        </div>
+        <img id="img-progress" src="value_images/progress.png" height="128pt" />
+    </div>
+    <h2>Technological Axis: <span class="weight-300" id="t-label"></span></h2>
+    <div class="axis">
+        <img id="img-accel" src="value_images/accel.png" height="128pt" />
+        <div class="bar accel" id="bar-accel">
+            <div class="text-wrapper" id="accel"></div>
+        </div>
+        <div class="bar decel" id="bar-decel">
+            <div class="text-wrapper" id="decel"></div>
+        </div>
+        <img id="img-decel" src="value_images/decel.png" height="128pt" />
+    </div>
+    <h2>Religious Axis: <span class="weight-300" id="r-label"></span></h2>
+    <div class="axis">
+        <img id="img-religious" src="value_images/religious.png" height="128pt" />
+        <div class="bar religious" id="bar-religious">
+            <div class="text-wrapper" id="religious"></div>
+        </div>
+        <div class="bar atheistic" id="bar-atheistic">
+            <div class="text-wrapper" id="atheistic"></div>
+        </div>
+        <img id="img-atheistic" src="value_images/atheistic.png" height="128pt" />
+    </div>
+    <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
+    <p>You can send these results by copying and pasting the URL at the top of the page or using the image below.</p>
+    <hr />
+    <img src="" id="banner">
+    <button class="button" onclick="location.href='index.html';">Back</button> <br>
+    <script>
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1)
+            var vars = query.split("&")
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=")
+                if (pair[0] == variable) { return pair[1] }
+            }
+            return (NaN);
         }
-    }
 
-    econArray = ["Commonal","Communist","Socialist","Social","Centrist","Regulationist","Capitalist","Laissez-Faire","Involutionist"]
-    diplArray = ["Galacticist","World Federalist","Globalist","Internationalist","Centrist","Patriot","Nationalist","Ultranationalist","Incognitist"]
-    wArray = ["Omniwarfare","Imperialist","Militarist","Interventionist","Centrist","Moderate Pacifist","Pacifist","Extreme Pacifist","Irenic"]
-    govtArray = ["Egoarchist","Anarchist","Minarchist","Libertarian","Centrist","Statist","Authoritarian","Totalitarian","IngTot"]
-    sctyArray = ["Noveltist","Revolutionary","Radical","Progressive","Centrist","Conservative","Traditionalist","Reactionary","Antiquitist"]
-    tArray = ["Posthumanist","Transhumanist","Accelerationist","Technological","Centrist","Decelerationist","Agrarian","Primitivist","Primalist"]
-    rArray = ["Miraclist","Theocratic","Religious","Devout","Centrist","Secular","Atheist","State Atheist","State Skepticist"]
-
-    function setLabel(val,ary) {
-        if (val > 100) { return ary[0] } else
-        if (val > 90) { return ary[1] } else
-        if (val > 75) { return ary[2] } else
-        if (val > 60) { return ary[3] } else
-        if (val >= 40) { return ary[4] } else
-        if (val >= 25) { return ary[5] } else
-        if (val >= 10) { return ary[6] } else
-        if (val >= 0) { return ary[7] } else
-        	{return ary[8]}
-    }
-
-    equality  = getQueryVariable("e")
-    peace     = getQueryVariable("d")
-    jingoism  = getQueryVariable("w")
-    liberty   = getQueryVariable("g")
-    progress  = getQueryVariable("s")
-    accel     = getQueryVariable("t")
-    religious = getQueryVariable("r")
-    wealth    = (100 - equality ).toFixed(1)
-    might     = (100 - peace    ).toFixed(1)
-    pacifism  = (100 - jingoism ).toFixed(1)
-    authority = (100 - liberty  ).toFixed(1)
-    tradition = (100 - progress ).toFixed(1)
-    decel     = (100 - accel    ).toFixed(1)
-    atheistic = (100 - religious).toFixed(1)
-
-    setBarValue("equality", equality)
-    setBarValue("wealth", wealth)
-    setBarValue("peace", peace)
-    setBarValue("might", might)
-    setBarValue("pacifism", pacifism)
-    setBarValue("jingoism", jingoism)
-    setBarValue("liberty", liberty)
-    setBarValue("authority", authority)
-    setBarValue("progress", progress)
-    setBarValue("tradition", tradition)
-    setBarValue("decel", decel)
-    setBarValue("accel", accel)
-    setBarValue("religious", religious)
-    setBarValue("atheistic", atheistic)
-
-    document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("w-label").innerHTML = setLabel(jingoism, wArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
-    document.getElementById("t-label").innerHTML = setLabel(accel, tArray)
-    document.getElementById("r-label").innerHTML = setLabel(religious, rArray)
-
-    ideology = ""
-    ideodist = Infinity
-    for (var i = 0; i < ideologies.length; i++) {
-        dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2.1)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.w - jingoism), 1.2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.t - accel), 1.2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.r - religious), 1.2)
-        if (dist < ideodist) {
-            ideology = ideologies[i].name
-            ideodist = dist
+        function setBarValue(name, value) {
+            innerel = document.getElementById(name)
+            outerel = document.getElementById("bar-" + name)
+            outerel.style.width = (value + "%")
+            innerel.innerHTML = (value + "%")
+            if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
+                innerel.style.visibility = "hidden"
+            }
         }
-    }
-    document.getElementById("ideology-label").innerHTML = ideology
 
-    function createImage(src, x, y, w, h) {
-        img = new Image ()
-        img.src = src
-        img.onLoad = function() {
-            ctx.drawImage(img, x, y, w, h)
+        econArray = ["Commonal", "Communist", "Socialist", "Social", "Centrist", "Regulationist", "Capitalist", "Laissez-Faire", "Involutionist"]
+        diplArray = ["Galacticist", "World Federalist", "Globalist", "Internationalist", "Centrist", "Patriot", "Nationalist", "Ultranationalist", "Incognitist"]
+        wArray = ["Omniwarfare", "Imperialist", "Militarist", "Interventionist", "Centrist", "Moderate Pacifist", "Pacifist", "Extreme Pacifist", "Irenic"]
+        govtArray = ["Egoarchist", "Anarchist", "Minarchist", "Libertarian", "Centrist", "Statist", "Authoritarian", "Totalitarian", "IngTot"]
+        sctyArray = ["Noveltist", "Revolutionary", "Radical", "Progressive", "Centrist", "Conservative", "Traditionalist", "Reactionary", "Antiquitist"]
+        tArray = ["Posthumanist", "Transhumanist", "Accelerationist", "Technological", "Centrist", "Decelerationist", "Agrarian", "Primitivist", "Primalist"]
+        rArray = ["Miraclist", "Theocratic", "Religious", "Devout", "Centrist", "Secular", "Atheist", "State Atheist", "State Skepticist"]
+
+        function setLabel(val, ary) {
+            if (val > 100) { return ary[0] } else
+                if (val > 90) { return ary[1] } else
+                    if (val > 75) { return ary[2] } else
+                        if (val > 60) { return ary[3] } else
+                            if (val >= 40) { return ary[4] } else
+                                if (val >= 25) { return ary[5] } else
+                                    if (val >= 10) { return ary[6] } else
+                                        if (val >= 0) { return ary[7] } else { return ary[8] }
         }
-    }
 
-    window.onload = function() {
-        var c = document.createElement("canvas")
-        var ctx = c.getContext("2d")
-        c.width = 800;
-        c.height = 1050;
-        ctx.fillStyle = "#858585"
-        ctx.fillRect(0,0,800,1050);
+        equality = getQueryVariable("e")
+        peace = getQueryVariable("d")
+        jingoism = getQueryVariable("w")
+        liberty = getQueryVariable("g")
+        progress = getQueryVariable("s")
+        accel = getQueryVariable("t")
+        religious = getQueryVariable("r")
+        wealth = (100 - equality).toFixed(1)
+        might = (100 - peace).toFixed(1)
+        pacifism = (100 - jingoism).toFixed(1)
+        authority = (100 - liberty).toFixed(1)
+        tradition = (100 - progress).toFixed(1)
+        decel = (100 - accel).toFixed(1)
+        atheistic = (100 - religious).toFixed(1)
 
-        img = document.getElementById("img-equality")
-        ctx.drawImage(img, 20, 170, 100, 100);
-        img = document.getElementById("img-wealth")
-        ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-might")
-        ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-peace")
-        ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-jingoism")
-        ctx.drawImage(img, 20, 410, 100, 100)
-        img = document.getElementById("img-pacifism")
-        ctx.drawImage(img, 680, 410, 100, 100)
-        img = document.getElementById("img-liberty")
-        ctx.drawImage(img, 20, 530, 100, 100)
-        img = document.getElementById("img-authority")
-        ctx.drawImage(img, 680, 530, 100, 100)
-        img = document.getElementById("img-tradition")
-        ctx.drawImage(img, 20, 650, 100, 100)
-        img = document.getElementById("img-progress")
-        ctx.drawImage(img, 680, 650, 100, 100)
-        img = document.getElementById("img-accel")
-        ctx.drawImage(img, 20, 770, 100, 100)
-        img = document.getElementById("img-decel")
-        ctx.drawImage(img, 680, 770, 100, 100)
-        img = document.getElementById("img-religious")
-        ctx.drawImage(img, 20, 890, 100, 100)
-        img = document.getElementById("img-atheistic")
-        ctx.drawImage(img, 680, 890, 100, 100)
+        setBarValue("equality", equality)
+        setBarValue("wealth", wealth)
+        setBarValue("peace", peace)
+        setBarValue("might", might)
+        setBarValue("pacifism", pacifism)
+        setBarValue("jingoism", jingoism)
+        setBarValue("liberty", liberty)
+        setBarValue("authority", authority)
+        setBarValue("progress", progress)
+        setBarValue("tradition", tradition)
+        setBarValue("decel", decel)
+        setBarValue("accel", accel)
+        setBarValue("religious", religious)
+        setBarValue("atheistic", atheistic)
 
-        ctx.fillStyle="#222222"
-        ctx.fillRect(120, 180, 560, 80)
-        ctx.fillRect(120, 300, 560, 80)
-        ctx.fillRect(120, 420, 560, 80)
-        ctx.fillRect(120, 540, 560, 80)
-        ctx.fillRect(120, 660, 560, 80)
-        ctx.fillRect(120, 780, 560, 80)
-        ctx.fillRect(120, 900, 560, 80)
-        ctx.fillStyle="#ff0000" /* Equality */
-        ctx.fillRect(120, 184, 5.6*equality-2, 72)
-        ctx.fillStyle="#00CC00" /*Market */
-        ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
-        ctx.fillStyle="#ffa000" /* Nationalism */
-        ctx.fillRect(120, 304, 5.6*might-2, 72)
-        ctx.fillStyle="#40c0ff" /* Glo */
-        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
-        ctx.fillStyle="#277700" /* Jin */
-        ctx.fillRect(120, 424, 5.6*jingoism-2, 72)
-        ctx.fillStyle="#c0c0c0" /* Pac */
-        ctx.fillRect(682-5.6*pacifism, 424, 5.6*pacifism-2, 72)
-        ctx.fillStyle="#fff000" /* Lib */
-        ctx.fillRect(120, 544, 5.6*liberty-2, 72)
-        ctx.fillStyle="#000fff" /* Auth */
-        ctx.fillRect(682-5.6*authority, 544, 5.6*authority-2, 72)
-        ctx.fillStyle="#910091" /* Trad */
-        ctx.fillRect(120, 664, 5.6*tradition-2, 72)
-        ctx.fillStyle="#ff00ff" /* Prog */
-        ctx.fillRect(682-5.6*progress, 664, 5.6*progress-2, 72)
-        ctx.fillStyle="#00ffff" /* h+ */
-        ctx.fillRect(120, 784, 5.6*accel-2, 72)
-        ctx.fillStyle="#00ff00" /* prim */
-        ctx.fillRect(682-5.6*decel, 784, 5.6*decel-2, 72)
-        ctx.fillStyle="#eeffa0" /* Rel */
-        ctx.fillRect(120, 904, 5.6*religious-2, 72)
-        ctx.fillStyle="#000000" /* Ath*/
-        ctx.fillRect(682-5.6*atheistic, 904, 5.6*atheistic-2, 72)
-        ctx.fillStyle="#222222"
-        ctx.font="20px Montserrat"
-        ctx.textAlign="left"
-        ctx.fillText("https://tomaasci.github.io/better7axes/", 20, 1020)
-        ctx.font="12px Montserrat"
-        ctx.textAlign="left"
-        ctx.fillText("(This test is fundamentally limited by the finite number of questions it can ask you, as all are.)", 20, 1040)
-        ctx.font="700 50px Montserrat"
-        ctx.textAlign="left"
-        ctx.fillText("Better7Axes", 20, 90)
-        ctx.font="50px Montserrat"
-        ctx.fillText(ideology, 20, 140)
+        document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
+        document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
+        document.getElementById("w-label").innerHTML = setLabel(jingoism, wArray)
+        document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
+        document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
+        document.getElementById("t-label").innerHTML = setLabel(accel, tArray)
+        document.getElementById("r-label").innerHTML = setLabel(religious, rArray)
 
-        ctx.textAlign="left"
-        if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (jingoism  > 30) {ctx.fillText(jingoism + "%", 130, 477.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 597.5)}
-        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 717.5)}
-        if (accel     > 30) {ctx.fillText(accel + "%", 130, 837.5)}
-        if (religious > 30) {ctx.fillText(religious + "%", 130, 957.5)}
-        ctx.textAlign="right"
-        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (pacifism  > 30) {ctx.fillText(pacifism + "%", 670, 477.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 597.5)}
-        if (progress  > 30) {ctx.fillText(progress + "%", 670, 717.5)}
-        if (decel     > 30) {ctx.fillText(decel + "%", 670, 837.5)}
-        if (atheistic > 30) {ctx.fillText(atheistic + "%", 670, 957.5)}
+        ideology = ""
+        ideodist = Infinity
+        for (var i = 0; i < ideologies.length; i++) {
+            dist = 0
+            dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
+            dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2.1)
+            dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.2)
+            dist += Math.pow(Math.abs(ideologies[i].stats.w - jingoism), 1.2)
+            dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 2)
+            dist += Math.pow(Math.abs(ideologies[i].stats.t - accel), 1.2)
+            dist += Math.pow(Math.abs(ideologies[i].stats.r - religious), 1.2)
+            if (dist < ideodist) {
+                ideology = ideologies[i].name
+                ideodist = dist
+            }
+        }
+        document.getElementById("ideology-label").innerHTML = ideology
 
-        ctx.font="300 30px Montserrat"
-		ctx.fillText(version, 780, 90)
-        ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("War Axis: " + document.getElementById("w-label").innerHTML, 400, 415)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 535)
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 655)
-        ctx.fillText("Technological Axis: " + document.getElementById("t-label").innerHTML, 400, 775)
-        ctx.fillText("Religious Axis: " + document.getElementById("r-label").innerHTML, 400, 895)
+        function createImage(src, x, y, w, h) {
+            img = new Image()
+            img.src = src
+            img.onLoad = function () {
+                ctx.drawImage(img, x, y, w, h)
+            }
+        }
 
-        document.getElementById("banner").src = c.toDataURL();
-    }
+        window.onload = function () {
+            var c = document.createElement("canvas")
+            var ctx = c.getContext("2d")
+            c.width = 800;
+            c.height = 1050;
+            ctx.fillStyle = "#858585"
+            ctx.fillRect(0, 0, 800, 1050);
+
+            img = document.getElementById("img-equality")
+            ctx.drawImage(img, 20, 170, 100, 100);
+            img = document.getElementById("img-wealth")
+            ctx.drawImage(img, 680, 170, 100, 100)
+            img = document.getElementById("img-might")
+            ctx.drawImage(img, 20, 290, 100, 100)
+            img = document.getElementById("img-peace")
+            ctx.drawImage(img, 680, 290, 100, 100)
+            img = document.getElementById("img-jingoism")
+            ctx.drawImage(img, 20, 410, 100, 100)
+            img = document.getElementById("img-pacifism")
+            ctx.drawImage(img, 680, 410, 100, 100)
+            img = document.getElementById("img-liberty")
+            ctx.drawImage(img, 20, 530, 100, 100)
+            img = document.getElementById("img-authority")
+            ctx.drawImage(img, 680, 530, 100, 100)
+            img = document.getElementById("img-tradition")
+            ctx.drawImage(img, 20, 650, 100, 100)
+            img = document.getElementById("img-progress")
+            ctx.drawImage(img, 680, 650, 100, 100)
+            img = document.getElementById("img-accel")
+            ctx.drawImage(img, 20, 770, 100, 100)
+            img = document.getElementById("img-decel")
+            ctx.drawImage(img, 680, 770, 100, 100)
+            img = document.getElementById("img-religious")
+            ctx.drawImage(img, 20, 890, 100, 100)
+            img = document.getElementById("img-atheistic")
+            ctx.drawImage(img, 680, 890, 100, 100)
+
+            ctx.fillStyle = "#222222"
+            ctx.fillRect(120, 180, 560, 80)
+            ctx.fillRect(120, 300, 560, 80)
+            ctx.fillRect(120, 420, 560, 80)
+            ctx.fillRect(120, 540, 560, 80)
+            ctx.fillRect(120, 660, 560, 80)
+            ctx.fillRect(120, 780, 560, 80)
+            ctx.fillRect(120, 900, 560, 80)
+            ctx.fillStyle = "#ff0000" /* Equality */
+            ctx.fillRect(120, 184, 5.6 * equality - 2, 72)
+            ctx.fillStyle = "#00CC00" /*Market */
+            ctx.fillRect(682 - 5.6 * wealth, 184, 5.6 * wealth - 2, 72)
+            ctx.fillStyle = "#ffa000" /* Nationalism */
+            ctx.fillRect(120, 304, 5.6 * might - 2, 72)
+            ctx.fillStyle = "#40c0ff" /* Glo */
+            ctx.fillRect(682 - 5.6 * peace, 304, 5.6 * peace - 2, 72)
+            ctx.fillStyle = "#277700" /* Jin */
+            ctx.fillRect(120, 424, 5.6 * jingoism - 2, 72)
+            ctx.fillStyle = "#c0c0c0" /* Pac */
+            ctx.fillRect(682 - 5.6 * pacifism, 424, 5.6 * pacifism - 2, 72)
+            ctx.fillStyle = "#fff000" /* Lib */
+            ctx.fillRect(120, 544, 5.6 * liberty - 2, 72)
+            ctx.fillStyle = "#000fff" /* Auth */
+            ctx.fillRect(682 - 5.6 * authority, 544, 5.6 * authority - 2, 72)
+            ctx.fillStyle = "#910091" /* Trad */
+            ctx.fillRect(120, 664, 5.6 * tradition - 2, 72)
+            ctx.fillStyle = "#ff00ff" /* Prog */
+            ctx.fillRect(682 - 5.6 * progress, 664, 5.6 * progress - 2, 72)
+            ctx.fillStyle = "#00ffff" /* h+ */
+            ctx.fillRect(120, 784, 5.6 * accel - 2, 72)
+            ctx.fillStyle = "#00ff00" /* prim */
+            ctx.fillRect(682 - 5.6 * decel, 784, 5.6 * decel - 2, 72)
+            ctx.fillStyle = "#eeffa0" /* Rel */
+            ctx.fillRect(120, 904, 5.6 * religious - 2, 72)
+            ctx.fillStyle = "#000000" /* Ath*/
+            ctx.fillRect(682 - 5.6 * atheistic, 904, 5.6 * atheistic - 2, 72)
+            ctx.fillStyle = "#222222"
+            ctx.font = "20px Montserrat"
+            ctx.textAlign = "left"
+            ctx.fillText("https://tomaasci.github.io/better7axes/", 20, 1020)
+            ctx.font = "12px Montserrat"
+            ctx.textAlign = "left"
+            ctx.fillText("(This test is fundamentally limited by the finite number of questions it can ask you, as all are.)", 20, 1040)
+            ctx.font = "700 50px Montserrat"
+            ctx.textAlign = "left"
+            ctx.fillText("Better7Axes", 20, 90)
+            ctx.font = "50px Montserrat"
+            ctx.fillText(ideology, 20, 140)
+
+            ctx.textAlign = "left"
+            if (equality > 30) { ctx.fillText(equality + "%", 130, 237.5) }
+            if (might > 30) { ctx.fillText(might + "%", 130, 357.5) }
+            if (jingoism > 30) { ctx.fillText(jingoism + "%", 130, 477.5) }
+            if (liberty > 30) { ctx.fillText(liberty + "%", 130, 597.5) }
+            if (tradition > 30) { ctx.fillText(tradition + "%", 130, 717.5) }
+            if (accel > 30) { ctx.fillText(accel + "%", 130, 837.5) }
+            if (religious > 30) { ctx.fillText(religious + "%", 130, 957.5) }
+            ctx.textAlign = "right"
+            if (wealth > 30) { ctx.fillText(wealth + "%", 670, 237.5) }
+            if (peace > 30) { ctx.fillText(peace + "%", 670, 357.5) }
+            if (pacifism > 30) { ctx.fillText(pacifism + "%", 670, 477.5) }
+            if (authority > 30) { ctx.fillText(authority + "%", 670, 597.5) }
+            if (progress > 30) { ctx.fillText(progress + "%", 670, 717.5) }
+            if (decel > 30) { ctx.fillText(decel + "%", 670, 837.5) }
+            if (atheistic > 30) { ctx.fillText(atheistic + "%", 670, 957.5) }
+
+            ctx.font = "300 30px Montserrat"
+            ctx.fillText(version, 780, 90)
+            ctx.textAlign = "center"
+            ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
+            ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
+            ctx.fillText("War Axis: " + document.getElementById("w-label").innerHTML, 400, 415)
+            ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 535)
+            ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 655)
+            ctx.fillText("Technological Axis: " + document.getElementById("t-label").innerHTML, 400, 775)
+            ctx.fillText("Religious Axis: " + document.getElementById("r-label").innerHTML, 400, 895)
+
+            document.getElementById("banner").src = c.toDataURL();
+        }
     </script>
 </body>
