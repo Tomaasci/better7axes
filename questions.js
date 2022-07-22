@@ -394,7 +394,7 @@ questions = [
             "t": 0,
             "r": 0
         }
-    }
+    },
     {
         "question": "Homogeneity of nationalities is important in maintaining national stability.",
         "effect": {
