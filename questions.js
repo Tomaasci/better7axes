@@ -1,8 +1,8 @@
 questions = [
     {
-        "question": "This question should give you 120 equality.",
-        "effect": {
-            "econ": 120,
+        "question": "This question should give you 120 equality.", // This question is a testing one, and will be removed as soon as I verify its effect
+        "effect": { // I will do stats rebalancing once I get all the questions right
+            "econ": 1200,
             "dipl": 0,
             "w": 0,
             "govt": 0,
@@ -24,7 +24,7 @@ questions = [
         }
     },
     {
-        "question": "Regulations almost always improve the economy.",
+        "question": "Regulations are usually a net positive for the economy.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-        "question": "Private charity is a bad thing, as it prevents the masses from reaching the conditions that cause revolution.",
+        "question": "Private charities usually can't be trusted to do what they claim on their own.",
         "effect": {
             "econ": 7,
             "dipl": 0,
@@ -96,7 +96,7 @@ questions = [
         }
     },
     {
-        "question": "Selfishness, when it relates to economy, should be rewarded.",
+        "question": "People are naturally selfish.",
         "effect": {
             "econ": -7,
             "dipl": 0,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "It is immoral for the government to allow people to be without medical care.",
+        "question": "Medical care is or should be recognized as a human right.",
         "effect": {
             "econ": 7,
             "dipl": 0,
@@ -204,7 +204,7 @@ questions = [
         }
     },
     {
-        "question": "Private schools benefit society.",
+        "question": "Private schools are better than public schools.",
         "effect": {
             "econ": -7,
             "dipl": 0,
@@ -216,9 +216,9 @@ questions = [
         }
     },
     {
-        "question": "Wealthy inequality is not a problem in our nation.",
+        "question": "Wealth inequality is not a problem important enough to be tackled in our nation.",
         "effect": {
-            "econ": 7,
+            "econ": -7,
             "dipl": 0,
             "w": 0,
             "govt": 0,
@@ -326,7 +326,7 @@ questions = [
     {
         "question": "It is important to promote domestic industry through legislation",
         "effect": {
-            "econ": 5,
+            "econ": 2,
             "dipl": -10,
             "w": 0,
             "govt": 0,
@@ -336,7 +336,7 @@ questions = [
         }
     },
     {
-        "question": "The European Parliament needs more power.",
+        "question": "The European Parliament and similiar organisations should get more power.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -351,7 +351,7 @@ questions = [
         "question": "Our nation is superior to all others.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -15,
             "w": 0,
             "govt": 0,
             "scty": 0,
@@ -372,7 +372,7 @@ questions = [
         }
     },
     {
-        "question": "Multiculturalism enriches all cultures.",
+        "question": "Multiculturalism enriches all cultures and nations.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -394,27 +394,15 @@ questions = [
             "t": 0,
             "r": 0
         }
-    },
+    }
     {
-        "question": "Veterans do not deserve special privileges.",
-        "effect": {
-            "econ": 0,
-            "dipl": 7,
-            "w": -2,
-            "govt": 0,
-            "scty": 0,
-            "t": 0,
-            "r": 0
-        }
-    },
-    {
-        "question": "Homogeneity is important in maintaining national stability.",
+        "question": "Homogeneity of nationalities is important in maintaining national stability.",
         "effect": {
             "econ": 0,
             "dipl": -10,
             "w": 0,
-            "govt": -5,
-            "scty": -5,
+            "govt": 0,
+            "scty": 0,
             "t": 0,
             "r": 0
         }
@@ -497,7 +485,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": -5,
+            "govt": -7,
             "scty": 0,
             "t": 0,
             "r": 0
@@ -521,7 +509,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": 10,
+            "govt": 7,
             "scty": 0,
             "t": 0,
             "r": 0
@@ -569,7 +557,7 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": 10,
+            "govt": 15,
             "scty": 0,
             "t": 0,
             "r": 0
@@ -624,19 +612,7 @@ questions = [
         }
     },
     {
-        "question": "I have respect for strong leaders, even if I disagree with their policies.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": -10,
-            "scty": 0,
-            "t": 0,
-            "r": 0
-        }
-    },
-    {
-        "question": "Bad/Evil people should be publicly shamed and harassed.",
+        "question": "Strong leaders should be respected, even if one disagrees with their policies.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -672,12 +648,12 @@ questions = [
         }
     },
     {
-        "question": "Live and let live is a good principle to live by.",
+        "question": "In terms of governance, live and let live is a good principle to live by.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
-            "govt": 10,
+            "govt": 12,
             "scty": 0,
             "t": 0,
             "r": 0
@@ -732,7 +708,7 @@ questions = [
         }
     },
     {
-        "question": "I care more about my life than about my liberties.",
+        "question": "I care more about my safety than about my liberties.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -744,19 +720,7 @@ questions = [
         }
     },
     {
-        "question": "I would not die for freedom.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": -10,
-            "scty": 0,
-            "t": 0,
-            "r": 0
-        }
-    },
-    {
-        "question": "Same-sex relationships are an abomination.",
+        "question": "Same-sex relationships are immoral.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -776,7 +740,7 @@ questions = [
             "govt": 0,
             "scty": -10,
             "t": 0,
-            "r": 0
+            "r": 5
         }
     },
     {
@@ -816,7 +780,7 @@ questions = [
         }
     },
     {
-        "question": "Affirmative action for racial minorities is a good policy.",
+        "question": "We should do more to include other races in our communities.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -828,19 +792,7 @@ questions = [
         }
     },
     {
-        "question": "Secularism is evil.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": -4,
-            "scty": -10,
-            "t": 0,
-            "r": 0
-        }
-    },
-    {
-        "question": "Swearing and profanity should be looked down upon by society.",
+        "question": "Secularism is a bad policy.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -859,7 +811,7 @@ questions = [
             "w": 0,
             "govt": 0,
             "scty": 10,
-            "t": 0,
+            "t": 2,
             "r": 0
         }
     },
@@ -927,7 +879,7 @@ questions = [
         "question": "We should strive to be as diverse as possible at all times.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": -2,
             "w": 0,
             "govt": 0,
             "scty": 10,
@@ -960,18 +912,6 @@ questions = [
         }
     },
     {
-        "question": "Witchcraft should be a punishable offense.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": 0,
-            "scty": -10,
-            "t": 0,
-            "r": 0
-        }
-    },
-    {
         "question": "We must liberate ourselves from the ways of the past.",
         "effect": {
             "econ": 0,
@@ -992,7 +932,7 @@ questions = [
             "govt": 0,
             "scty": 10,
             "t": 0,
-            "r": -10
+            "r": 0
         }
     },
     {
@@ -1083,7 +1023,7 @@ questions = [
         "question": "We should not use our military to defend other countries.",
         "effect": {
             "econ": 0,
-            "dipl": 0,
+            "dipl": 3,
             "w": -10,
             "govt": 0,
             "scty": 0,
@@ -1104,7 +1044,7 @@ questions = [
         }
     },
     {
-        "question": "We should spend less than 2.3% of our GDP on the military.",
+        "question": "We should spend less than 2% of our GDP on the military.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1200,7 +1140,7 @@ questions = [
         }
     },
     {
-        "question": "War is justified if waged against an evil enemy.",
+        "question": "War is always justified if waged against an immoral enemy.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1272,7 +1212,7 @@ questions = [
         }
     },
     {
-        "question": "The matrix seems like a utopia to me.",
+        "question": "A cyborg society seems like a utopia to me.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1320,26 +1260,14 @@ questions = [
         }
     },
     {
-        "question": "Genetic modification of humans is acceptable.",
+        "question": "Genetic modification of humans should be opposed in most or all cases.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
             "govt": 0,
             "scty": 0,
-            "t": 15,
-            "r": 0
-        }
-    },
-    {
-        "question": "I have taken at least one dose of a coronavirus vaccine, and was not forced to do so.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": 0,
-            "scty": 0,
-            "t": 7,
+            "t": -15,
             "r": 0
         }
     },
@@ -1374,8 +1302,8 @@ questions = [
             "dipl": 0,
             "w": 0,
             "govt": 0,
-            "scty": -2,
-            "t": -10,
+            "scty": 0,
+            "t": -15,
             "r": 0
         }
     },
@@ -1399,7 +1327,7 @@ questions = [
             "w": 0,
             "govt": 0,
             "scty": 0,
-            "t": -10,
+            "t": -5,
             "r": 0
         }
     },
@@ -1440,19 +1368,7 @@ questions = [
         }
     },
     {
-        "question": "I choose not to get flu shots.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": 0,
-            "scty": 0,
-            "t": -10,
-            "r": 0
-        }
-    },
-    {
-        "question": "I will never, or will never again, get a vaccine.",
+        "question": "Vaccines endanger our natural immunity.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1472,18 +1388,6 @@ questions = [
             "govt": 0,
             "scty": 0,
             "t": -15,
-            "r": 0
-        }
-    },
-    {
-        "question": "I would oppose replacing school teachers with robots.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": 0,
-            "scty": 0,
-            "t": -7,
             "r": 0
         }
     },
@@ -1536,19 +1440,7 @@ questions = [
         }
     },
     {
-        "question": "The biggest divide in the modern day is between the secular and the religious.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": 0,
-            "scty": 0,
-            "t": 0,
-            "r": 10
-        }
-    },
-    {
-        "question": "I belive that attending a religious service (such as church) is a moral necessity.",
+        "question": "I belive that observing religious acts (such as worship) is a moral necessity.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1561,18 +1453,6 @@ questions = [
     },
     {
         "question": "I believe in one or many gods.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "w": 0,
-            "govt": 0,
-            "scty": 0,
-            "t": 0,
-            "r": 10
-        }
-    },
-    {
-        "question": "There is such a thing as truth.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1608,7 +1488,7 @@ questions = [
         }
     },
     {
-        "question": "No god should have authority over mankind.",
+        "question": "No god that has authority over mankind deserves worship.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1644,7 +1524,7 @@ questions = [
         }
     },
     {
-        "question": "Organised religions have much in common with cults.",
+        "question": "Religions have much in common with cults.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -1652,7 +1532,7 @@ questions = [
             "govt": 0,
             "scty": 0,
             "t": 0,
-            "r": -10
+            "r": -15
         }
     },
     {
@@ -1680,14 +1560,14 @@ questions = [
         }
     },
     {
-        "question": "I am a materialist.",
+        "question": "I believe in a philosophically materialist society.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "w": 0,
             "govt": 0,
-            "scty": 5,
-            "t": 2,
+            "scty": 0,
+            "t": 0,
             "r": -10
         }
     },
