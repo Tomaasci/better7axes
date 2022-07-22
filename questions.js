@@ -1,5 +1,17 @@
 questions = [
     {
+        "question":"This question should give you 120 equality"
+ "effect": {
+            "econ": 120,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
         "question": "A progressive taxation system is preferable to a flat taxation system.",
         "effect": {
             "econ": 10,
