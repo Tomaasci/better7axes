@@ -588,6 +588,19 @@ questions = [
         }
     },
     {
+        "question": "The government should be overthrown in a revolution.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 5,
+            "govt": 10,
+            "scty": 0,
+            "t": 0,
+            "r": 0
+        }
+    },
+    
+    {
         "question": "Nobody has the right to discriminate against anyone for believing in the wrong god.",
         "effect": {
             "econ": 0,
@@ -751,6 +764,18 @@ questions = [
             "w": 0,
             "govt": 0,
             "scty": -10,
+            "t": 0,
+            "r": 0
+        }
+    },
+    {
+        "question": "Homosexuality should be tolerated by society.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "w": 0,
+            "govt": 0,
+            "scty": 10,
             "t": 0,
             "r": 0
         }
