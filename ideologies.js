@@ -731,4 +731,28 @@ ideologies = [
             "r": 75
         }
     },
+    {
+        "name": "Ego-Communism",
+        "stats": {
+            "econ": 80,
+            "dipl": 60,
+            "govt": 95,
+            "scty": 70,
+            "w": 15,
+            "t": 60,
+            "r": 50
+        }
+    },
+    {
+        "name": "Soulism",
+        "stats": {
+            "econ": 150,
+            "dipl": 150,
+            "govt": 150,
+            "scty": 150,
+            "w": 20,
+            "t": 50,
+            "r": 150
+        }
+    },
 ];
