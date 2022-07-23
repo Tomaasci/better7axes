@@ -2,13 +2,13 @@ ideologies = [
     {
         "name": "Marxism",
         "stats": {
-            "econ": 90,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 60,
-            "w": 50,
-            "t": 50,
-            "r": 50
+            "econ": 90, // The more positive, the more socialist
+            "dipl": 50, // The more positive, the more globalist
+            "govt": 50, // The more positive, the more libertarian
+            "scty": 60, // The more positive, the more progressive
+            "w": 50,    // The more positive, the more jingoist
+            "t": 50,    // The more positive, the more transhumanist
+            "r": 50     // The more positive, the more religious
         }
     },
     {
@@ -187,7 +187,7 @@ ideologies = [
             "govt": -50,
             "scty": 50,
             "w": 100,
-            "t": 100,
+            "t": 65,
             "r": 0
         }
     },
