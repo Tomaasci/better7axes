@@ -1,35 +1,11 @@
 ideologies = [
     {
-        "name": "Reactionary Centrism",
-        "stats": {
-            "econ": 50,
-            "dipl": 15,
-            "govt": 50,
-            "scty": 10,
-            "w": 40,
-            "t": 20,
-            "r": 90
-        }
-    },
-    {
-        "name": "Neo-Feudal Monarchism",
-        "stats": {
-            "econ": 15,
-            "dipl": 20,
-            "govt": 22,
-            "scty": 10,
-            "w": 70,
-            "t": 15,
-            "r": 91
-        }
-    },
-    {
         "name": "Marxism",
         "stats": {
             "econ": 90,
             "dipl": 50,
             "govt": 50,
-            "scty": 70,
+            "scty": 60,
             "w": 50,
             "t": 50,
             "r": 50
@@ -39,30 +15,6 @@ ideologies = [
         "name": "Lassiez-Faire Capitalism",
         "stats": {
             "econ": 5,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50,
-            "w": 50,
-            "t": 50,
-            "r": 50
-        }
-    },
-    {
-        "name": "Fiscal Conservatism",
-        "stats": {
-            "econ": 25,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50,
-            "w": 50,
-            "t": 50,
-            "r": 50
-        }
-    },
-    {
-        "name": "Fiscal Conservatism",
-        "stats": {
-            "econ": 25,
             "dipl": 50,
             "govt": 50,
             "scty": 50,
@@ -101,7 +53,7 @@ ideologies = [
             "econ": 50,
             "dipl": 80,
             "govt": 90,
-            "scty": 90,
+            "scty": 70,
             "w": 50,
             "t": 50,
             "r": 50
@@ -232,7 +184,7 @@ ideologies = [
         "stats": {
             "econ": 60,
             "dipl": 50,
-            "govt": 0,
+            "govt": -50,
             "scty": 50,
             "w": 100,
             "t": 100,
@@ -249,30 +201,6 @@ ideologies = [
             "w": 50,
             "t": 50,
             "r": 50
-        }
-    },
-    {
-        "name": "Religious Apoliticism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50,
-            "w": 50,
-            "t": 50,
-            "r": 80
-        }
-    },
-    {
-        "name": "FALGSC",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 50,
-            "scty": 100,
-            "w": 50,
-            "t": 100,
-            "r": 0
         }
     },
     {
@@ -326,9 +254,9 @@ ideologies = [
     {
         "name": "Hive-Mind Collectivism",
         "stats": {
-            "econ": 100,
+            "econ": 150,
             "dipl": 50,
-            "govt": 0,
+            "govt": -50,
             "scty": 50,
             "w": 90,
             "t": 100,
@@ -340,7 +268,7 @@ ideologies = [
         "stats": {
             "econ": 0,
             "dipl": 50,
-            "govt": 0,
+            "govt": -50,
             "scty": 100,
             "w": 70,
             "t": 100,
@@ -372,7 +300,7 @@ ideologies = [
         }
     },
     {
-        "name": "Anarcho-Socialism",
+        "name": "Anarcho-Mutualism",
         "stats": {
             "econ": 70,
             "dipl": 80,
@@ -432,7 +360,7 @@ ideologies = [
         }
     },
     {
-        "name": "Tecnocratic Liberalism",
+        "name": "Technocratic Liberalism",
         "stats": {
             "econ": 40,
             "dipl": 40,
@@ -468,7 +396,7 @@ ideologies = [
         }
     },
     {
-        "name": "Libertarian Communism",
+        "name": "Libertarian Marxism",
         "stats": {
             "econ": 100,
             "dipl": 75,
@@ -516,15 +444,15 @@ ideologies = [
         }
     },
     {
-        "name": "Center-Libertarianism",
+        "name": "Pirate Politics",
         "stats": {
             "econ": 50,
             "dipl": 50,
-            "govt": 75,
-            "scty": 50,
+            "govt": 70,
+            "scty": 70,
             "w": 20,
-            "t": 75,
-            "r": 20
+            "t": 65,
+            "r": 50
         }
     },
     {
@@ -540,7 +468,7 @@ ideologies = [
         }
     },
     {
-        "name": "Egoism",
+        "name": "Anarcho-Egoism",
         "stats": {
             "econ": 40,
             "dipl": 50,
@@ -567,7 +495,7 @@ ideologies = [
         "name": "Authoritarian Capitalism",
         "stats": {
             "econ": 25,
-            "dipl": 30,
+            "dipl": 35,
             "govt": 15,
             "scty": 45,
             "w": 70,
@@ -624,30 +552,6 @@ ideologies = [
         }
     },
     {
-        "name": "Agnostic Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 50,
-            "scty": 70,
-            "w": 40,
-            "t": 60,
-            "r": 50
-        }
-    },
-    {
-        "name": "Secular Fascism",
-        "stats": {
-            "econ": 50,
-            "dipl": 10,
-            "govt": 15,
-            "scty": 20,
-            "w": 85,
-            "t": 75,
-            "r": 40
-        }
-    },
-    {
         "name": "Authoritarian Transhumanism",
         "stats": {
             "econ": 55,
@@ -657,18 +561,6 @@ ideologies = [
             "w": 50,
             "t": 90,
             "r": 20
-        }
-    },
-    {
-        "name": "Imperial Centrism",
-        "stats": {
-            "econ": 50,
-            "dipl": 55,
-            "govt": 45,
-            "scty": 50,
-            "w": 100,
-            "t": 50,
-            "r": 50
         }
     },
     {
@@ -736,10 +628,10 @@ ideologies = [
         "stats": {
             "econ": 75,
             "dipl": 50,
-            "govt": 25,
+            "govt": 40,
             "scty": 50,
             "w": 40,
-            "t": 70,
+            "t": 60,
             "r": 80
         }
     },
@@ -748,23 +640,11 @@ ideologies = [
         "stats": {
             "econ": 85,
             "dipl": 50,
-            "govt": 15,
+            "govt": 25,
             "scty": 40,
-            "w": 70,
-            "t": 70,
+            "w": 60,
+            "t": 65,
             "r": 80
-        }
-    },
-    {
-        "name": "Militant Globalism",
-        "stats": {
-            "econ": 35,
-            "dipl": 90,
-            "govt": 45,
-            "scty": 80,
-            "w": 90,
-            "t": 70,
-            "r": 20
         }
     },
     {
@@ -838,5 +718,17 @@ ideologies = [
             "t": 50,
             "r": 20
         }
-    }
+    },
+    {
+        "name": "Liberation Theology",
+        "stats": {
+            "econ": 80,
+            "dipl": 60,
+            "govt": 75,
+            "scty": 75,
+            "w": 30,
+            "t": 60,
+            "r": 75
+        }
+    },
 ];
