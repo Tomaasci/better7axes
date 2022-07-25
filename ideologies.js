@@ -732,14 +732,14 @@ ideologies = [
         }
     },
     {
-        "name": "Ego-Communism",
+        "name": "National Capitalism",
         "stats": {
-            "econ": 80,
-            "dipl": 60,
-            "govt": 95,
-            "scty": 70,
-            "w": 15,
-            "t": 60,
+            "econ": 25,
+            "dipl": 25,
+            "govt": 25,
+            "scty": 35,
+            "w": 75,
+            "t": 50,
             "r": 50
         }
     },
